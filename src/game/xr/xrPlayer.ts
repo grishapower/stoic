@@ -20,16 +20,32 @@ import { xr } from './xrState'
 const WALK = 1.35
 const RADIUS = 0.3
 const SNAP = Math.PI / 6
+/** Smooth turn: angular speed at full stick deflection (≈ 90°/s), with a dead zone and an ease-in curve. */
+const TURN_SPEED = Math.PI / 2
+const TURN_DEAD = 0.15
 const STEP_LEN = 0.74
 /** Sitting on the exedra while standing in the room: the world rises by this much. */
 const SEAT_DROP = EYE_HEIGHT - 1.12
 /** Playing seated in a chair: lift the eye to standing height. */
 const SEATED_PLAY_LIFT = 0.42
 
-const state = { snapArmed: true, groundY: 0, stepAcc: 0, seatBlend: 0, init: false }
+const state = { snapArmed: true, groundY: 0, stepAcc: 0, seatBlend: 0, init: false, turnRate: 0 }
 const fwd = new Vector3()
 const head = new Vector3()
 const before = new Vector3()
+
+/** Rotate the rig about the vertical axis through the head (the player turns on the spot). */
+function turnAroundHead(rig: NonNullable<typeof xr.rig>, camera: Camera, a: number) {
+  camera.getWorldPosition(head)
+  const dx = rig.position.x - head.x
+  const dz = rig.position.z - head.z
+  const c = Math.cos(a)
+  const sn = Math.sin(a)
+  rig.position.x = head.x + dx * c + dz * sn
+  rig.position.z = head.z - dx * sn + dz * c
+  rig.rotation.y += a
+  rig.updateMatrixWorld()
+}
 
 /** Place the rig so the head stands where the desktop player stood, facing the same way. */
 export function placeRigAtPlayer() {
@@ -56,10 +72,10 @@ export function updateXRPlayer(dt: number, camera: Camera, frozen: boolean) {
   before.copy(head)
 
   // Move: left stick (or the right one if only one controller is held).
-  const st = xr.hands.left.connected && xr.hands.left.kind === 'controller' ? xr.hands.left.stick : xr.hands.right.stick
+  const leftMoves = xr.hands.left.connected && xr.hands.left.kind === 'controller'
+  const st = leftMoves ? xr.hands.left.stick : xr.hands.right.stick
   const seated = s.playerSeated
   const moving = !frozen && (st.x !== 0 || st.y !== 0)
-  xr.gliding += ((moving && !seated ? Math.min(1, Math.hypot(st.x, st.y)) : 0) - xr.gliding) * damp(8, dt)
   if (seated && moving) s.setPlayerSeated(false)
   if (moving && !seated) {
     const k = Math.min(1, Math.hypot(st.x, st.y)) * WALK * dt
@@ -72,21 +88,28 @@ export function updateXRPlayer(dt: number, camera: Camera, frozen: boolean) {
     rig.position.z += ((fz * st.y + rz * st.x) / len) * k
   }
 
-  // Snap turn around the head (right stick).
-  const turn = xr.hands.right.kind === 'controller' ? xr.hands.right.stick.x : 0
-  if (state.snapArmed && Math.abs(turn) > 0.65 && !frozen) {
-    const a = -Math.sign(turn) * SNAP
-    camera.getWorldPosition(head)
-    const dx = rig.position.x - head.x
-    const dz = rig.position.z - head.z
-    const c = Math.cos(a)
-    const sn = Math.sin(a)
-    rig.position.x = head.x + dx * c + dz * sn
-    rig.position.z = head.z - dx * sn + dz * c
-    rig.rotation.y += a
-    rig.updateMatrixWorld()
-    state.snapArmed = false
-  } else if (Math.abs(turn) < 0.3) state.snapArmed = true
+  // Turn around the head with the right stick (only while the left stick moves us).
+  const turn = leftMoves && xr.hands.right.kind === 'controller' && !frozen ? xr.hands.right.stick.x : 0
+  let turning = 0
+  if (s.settings.vrTurn === 'snap') {
+    if (state.snapArmed && Math.abs(turn) > 0.65) {
+      turnAroundHead(rig, camera, -Math.sign(turn) * SNAP)
+      state.snapArmed = false
+    } else if (Math.abs(turn) < 0.3) state.snapArmed = true
+  } else {
+    // Smooth: speed follows the stick (ease-in past the dead zone); a soft start, but a quick
+    // stop when the stick is released (coasting after letting go is what makes people queasy).
+    const t = Math.max(0, (Math.abs(turn) - TURN_DEAD) / (1 - TURN_DEAD))
+    const target = -Math.sign(turn) * t * t * TURN_SPEED
+    const easing = Math.abs(target) < Math.abs(state.turnRate) ? 30 : 10
+    state.turnRate += (target - state.turnRate) * damp(easing, dt)
+    if (Math.abs(state.turnRate) > 1e-3) turnAroundHead(rig, camera, state.turnRate * dt)
+    turning = Math.min(1, Math.abs(state.turnRate) / TURN_SPEED)
+  }
+
+  // Comfort vignette follows gliding and smooth turning.
+  const glide = moving && !seated ? Math.min(1, Math.hypot(st.x, st.y)) : 0
+  xr.gliding += (Math.max(glide, turning * 0.9) - xr.gliding) * damp(8, dt)
 
   // Collisions: the head is the body; push the rig by the correction.
   rig.updateMatrixWorld()
@@ -137,4 +160,5 @@ export function updateXRPlayer(dt: number, camera: Camera, frozen: boolean) {
 export function resetXRPlayer() {
   state.init = false
   state.seatBlend = 0
+  state.turnRate = 0
 }

@@ -38,6 +38,8 @@ export interface Settings {
   vrVignette: boolean
   /** VR: playing seated — raise the eye to standing height. */
   vrSeated: boolean
+  /** VR: right-stick turning — smooth or in 30° steps. */
+  vrTurn: 'smooth' | 'snap'
 }
 
 export interface NarrationUi {
@@ -69,6 +71,7 @@ export const DEFAULT_SETTINGS: Settings = {
   fov: 62,
   vrVignette: true,
   vrSeated: false,
+  vrTurn: 'smooth',
 }
 
 const SETTINGS_KEY = 'seneca.settings.v1'

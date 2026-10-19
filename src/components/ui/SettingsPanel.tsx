@@ -12,6 +12,11 @@ const SUBTITLE_SIZES = [
   { value: 'large', label: 'Крупный' },
 ] as const
 
+const VR_TURNS = [
+  { value: 'smooth', label: 'Плавный' },
+  { value: 'snap', label: 'Рывками по 30°' },
+] as const
+
 const QUALITIES: readonly { value: Quality; label: string }[] = [
   { value: 'low', label: 'Низкое' },
   { value: 'medium', label: 'Среднее' },
@@ -134,6 +139,7 @@ export function SettingsPanel() {
             <h3 className="ui-settings__heading" id={`${uid}-vr`}>
               VR
             </h3>
+            <ChoiceRow label="Поворот стиком" value={s.vrTurn} options={VR_TURNS} onChange={(v) => update({ vrTurn: v })} />
             <SwitchRow label="Затемнять края при движении" checked={s.vrVignette} onChange={(v) => update({ vrVignette: v })} />
             <SwitchRow label="Играю сидя" checked={s.vrSeated} onChange={(v) => update({ vrSeated: v })} />
           </section>
