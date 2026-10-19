@@ -1,0 +1,1972 @@
+{
+  "rock-coast-ledge": {
+    "file": "assets/models/open/rock-coast-ledge.glb",
+    "source": "polyhaven",
+    "sourceId": "coast_rocks_05",
+    "name": "Coast Rocks 05",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/coast_rocks_05",
+    "size": [
+      4.036,
+      1.327,
+      3.747
+    ],
+    "triangles": 14998,
+    "use": "1 · rocks — sea cove shoreline: weathered limestone ledge with an undercut boulder, pebbles and a little seaweed.",
+    "notes": "Scan includes its own ground skirt (sand/pebbles). Pivot is the scan's ground plane: place y=0 on the beach surface (the skirt dips to -0.25 m). Real size, ~4 m across.",
+    "forward": "+Z",
+    "pivot": "center XZ, source ground plane at y=0 (mesh reaches y=-0.251)",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 1234856,
+    "sourceFilesHash": "5685f8953d4ee948c31128c4f857661a299dbf2c",
+    "recipe": "38a64cefd02e"
+  },
+  "rock-boulder-block": {
+    "file": "assets/models/open/rock-boulder-block.glb",
+    "source": "polyhaven",
+    "sourceId": "namaqualand_boulder_03",
+    "name": "Namaqualand Boulder 03",
+    "authors": [
+      "Jenelle van Heerden",
+      "Dario Barresi"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/namaqualand_boulder_03",
+    "size": [
+      2.404,
+      1.473,
+      3.064
+    ],
+    "triangles": 11998,
+    "use": "1 · rocks — big tan block boulder for the cliff foot / cove (reads as tuff or sandstone).",
+    "notes": "Real size ~2.4 x 1.5 x 3.1 m. Scale 0.5-1.5 and rotate freely for variety.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 789268,
+    "sourceFilesHash": "d45a977057ab8e8538e1747b7a5d89013da6743e",
+    "recipe": "54e51ae127da"
+  },
+  "rock-boulder-pale": {
+    "file": "assets/models/open/rock-boulder-pale.glb",
+    "source": "polyhaven",
+    "sourceId": "namaqualand_boulder_05",
+    "name": "Namaqualand Boulder 05",
+    "authors": [
+      "Jenelle van Heerden",
+      "Dario Barresi"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/namaqualand_boulder_05",
+    "size": [
+      1.364,
+      0.534,
+      0.748
+    ],
+    "triangles": 8998,
+    "use": "1 · rocks — low pale limestone-like boulder; garden edges, cove, path sides.",
+    "notes": "Real size ~1.4 x 0.5 x 0.75 m.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 962576,
+    "sourceFilesHash": "db0437675da1e8fcd3fdd7b0d933cac1c9462456",
+    "recipe": "893f662b3e1b"
+  },
+  "rock-rubble-cluster": {
+    "file": "assets/models/open/rock-rubble-cluster.glb",
+    "source": "polyhaven",
+    "sourceId": "namaqualand_boulder_02",
+    "name": "Namaqualand Boulder 02",
+    "authors": [
+      "Greg Zaal",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/namaqualand_boulder_02",
+    "size": [
+      2.532,
+      0.883,
+      1.23
+    ],
+    "triangles": 13998,
+    "use": "1 · rocks — cluster of blocky fallen rocks for the cliff foot (rock-fall at the base of the stair).",
+    "notes": "One mesh, ~2.5 x 0.9 x 1.2 m. Bottom is flat; sink slightly.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 1043904,
+    "sourceFilesHash": "a8226fbda59ed50a4686c9354fdb3d4eea061706",
+    "recipe": "bb2128b7a8de"
+  },
+  "rock-boulder-jagged": {
+    "file": "assets/models/open/rock-boulder-jagged.glb",
+    "source": "polyhaven",
+    "sourceId": "boulder_01",
+    "name": "Boulder 01",
+    "authors": [
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/boulder_01",
+    "size": [
+      1.272,
+      1.004,
+      1.83
+    ],
+    "triangles": 12000,
+    "use": "1 · rocks — jagged weathered boulder (warm brown) for the cliff foot and cove.",
+    "notes": "Real size ~1.3 x 1.0 x 1.8 m.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 1026540,
+    "sourceFilesHash": "83e2b16d6a089f8077d3eebe0462615c2ba0e7f6",
+    "recipe": "2eab658b2f1a"
+  },
+  "rock-limestone-slab": {
+    "file": "assets/models/open/rock-limestone-slab.glb",
+    "source": "polyhaven",
+    "sourceId": "moon_rock_01",
+    "name": "Moon Rock 01",
+    "authors": [
+      "Greg Zaal",
+      "Rico Cilliers",
+      "Jenelle van Heerden",
+      "Dario Barresi"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/moon_rock_01",
+    "size": [
+      2.121,
+      0.751,
+      1.116
+    ],
+    "triangles": 9958,
+    "use": "1 · rocks — pale grey flat slab (Capri/Sorrento limestone look) for the cove and as a natural step/seat.",
+    "notes": "Source is a 21 cm hand-sample scan (Poly Haven \"Moon Rock 01\"); scaled x10 to ~2.1 x 0.8 x 1.1 m. Texture is therefore softer up close; fine at >3 m.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "sourceScale": 10,
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 365144,
+    "sourceFilesHash": "8aac337ef1b7cd03ee522258ce658dbc1bffe554",
+    "recipe": "0d597f4dd1ba"
+  },
+  "stones-small": {
+    "file": "assets/models/open/stones-small.glb",
+    "source": "polyhaven",
+    "sourceId": "namaqualand_stones_01",
+    "name": "Namaqualand Stones 01",
+    "authors": [
+      "Greg Zaal",
+      "Jenelle van Heerden"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/namaqualand_stones_01",
+    "size": [
+      0.15,
+      0.084,
+      0.112
+    ],
+    "triangles": 7068,
+    "use": "1 · rocks — 5 small stones (8-15 cm) to scatter on paths, the beach and along wall bases (instancing).",
+    "notes": "Variant nodes stones-small_a..e, each pivoted at its own bottom centre (all overlap at the origin). Scale up to x3 for cobbles.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "stones-small_a",
+        "size": [
+          0.076,
+          0.038,
+          0.063
+        ],
+        "triangles": 1564
+      },
+      {
+        "node": "stones-small_b",
+        "size": [
+          0.15,
+          0.084,
+          0.081
+        ],
+        "triangles": 1198
+      },
+      {
+        "node": "stones-small_c",
+        "size": [
+          0.104,
+          0.056,
+          0.097
+        ],
+        "triangles": 1906
+      },
+      {
+        "node": "stones-small_d",
+        "size": [
+          0.114,
+          0.037,
+          0.082
+        ],
+        "triangles": 1200
+      },
+      {
+        "node": "stones-small_e",
+        "size": [
+          0.111,
+          0.077,
+          0.112
+        ],
+        "triangles": 1200
+      }
+    ],
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 304856,
+    "sourceFilesHash": "56a5d069e1b0eb31d342e677d39a23649a5265dd",
+    "recipe": "9898256b8381"
+  },
+  "beach-pebble-patch": {
+    "file": "assets/models/open/beach-pebble-patch.glb",
+    "source": "polyhaven",
+    "sourceId": "sand_rocks_small_01",
+    "name": "Sand Rocks Small 01",
+    "authors": [
+      "Rob Tuytel",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/sand_rocks_small_01",
+    "size": [
+      4.625,
+      0.533,
+      3.882
+    ],
+    "triangles": 14999,
+    "use": "1 · rocks — sandy shore patch with half-buried pale pebbles/rocks; dress the cove beach.",
+    "notes": "Ground-patch scan ~4.6 x 3.9 m, rocks up to ~0.4 m high, irregular sandy rim. Pivot is the scan's ground plane: place y=0 on the beach surface.",
+    "forward": "+Z",
+    "pivot": "center XZ, source ground plane at y=0 (mesh reaches y=-0.104)",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 926164,
+    "sourceFilesHash": "5d404c75371a10afa765713fdfb963816447e175",
+    "recipe": "0b9d382e076c"
+  },
+  "helichrysum-clump": {
+    "file": "assets/models/open/helichrysum-clump.glb",
+    "source": "polyhaven",
+    "sourceId": "flower_stinkkruid",
+    "name": "Flower Stinkkruid",
+    "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/flower_stinkkruid",
+    "size": [
+      0.35,
+      0.176,
+      0.3
+    ],
+    "triangles": 11940,
+    "use": "2 · plants — grey-green clumps with yellow button flowers: stand-in for Helichrysum italicum / Santolina (Mediterranean immortelle, cotton-lavender) on path edges and dry beds.",
+    "notes": "Species is South African (Stinkkruid); visually close to Mediterranean helichrysum/santolina. 4 variants, 0.2-0.35 m wide; scale x1.5-2.5 for garden clumps. Alpha-tested leaves (MASK 0.5), double-sided.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "helichrysum-clump_a",
+        "size": [
+          0.35,
+          0.176,
+          0.3
+        ],
+        "triangles": 2961
+      },
+      {
+        "node": "helichrysum-clump_b",
+        "size": [
+          0.249,
+          0.153,
+          0.209
+        ],
+        "triangles": 2993
+      },
+      {
+        "node": "helichrysum-clump_c",
+        "size": [
+          0.214,
+          0.147,
+          0.189
+        ],
+        "triangles": 2995
+      },
+      {
+        "node": "helichrysum-clump_d",
+        "size": [
+          0.219,
+          0.125,
+          0.221
+        ],
+        "triangles": 2991
+      }
+    ],
+    "alphaMode": "MASK",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 639116,
+    "sourceFilesHash": "03082af6c21b6b6f146a8bec83808a8efafb3e7b",
+    "recipe": "86d0c6e9527e"
+  },
+  "calendula-wild": {
+    "file": "assets/models/open/calendula-wild.glb",
+    "source": "polyhaven",
+    "sourceId": "flower_ursinia",
+    "name": "Flower Ursinia",
+    "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/flower_ursinia",
+    "size": [
+      0.425,
+      0.164,
+      0.343
+    ],
+    "triangles": 11655,
+    "use": "2 · plants — low sprawling plants with orange daisies: stand-in for field marigold (Calendula arvensis), a common Mediterranean wildflower; meadow, path edges.",
+    "notes": "Species is South African (Ursinia). 5 variants, 0.15-0.45 m wide. Alpha-tested, double-sided.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "calendula-wild_a",
+        "size": [
+          0.425,
+          0.164,
+          0.343
+        ],
+        "triangles": 2428
+      },
+      {
+        "node": "calendula-wild_b",
+        "size": [
+          0.277,
+          0.131,
+          0.26
+        ],
+        "triangles": 2496
+      },
+      {
+        "node": "calendula-wild_c",
+        "size": [
+          0.261,
+          0.15,
+          0.199
+        ],
+        "triangles": 2500
+      },
+      {
+        "node": "calendula-wild_d",
+        "size": [
+          0.186,
+          0.133,
+          0.151
+        ],
+        "triangles": 2267
+      },
+      {
+        "node": "calendula-wild_e",
+        "size": [
+          0.138,
+          0.074,
+          0.157
+        ],
+        "triangles": 1964
+      }
+    ],
+    "alphaMode": "MASK",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 574748,
+    "sourceFilesHash": "c7207cfa8d45fac3cca61091eab76931340b6722",
+    "recipe": "67e08b96d69f"
+  },
+  "iceplant-coastal": {
+    "file": "assets/models/open/iceplant-coastal.glb",
+    "source": "polyhaven",
+    "sourceId": "crystalline_iceplant",
+    "name": "Crystalline Iceplant",
+    "authors": [
+      "James Ray Cock",
+      "Jenelle van Heerden"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/crystalline_iceplant",
+    "size": [
+      0.28,
+      0.081,
+      0.316
+    ],
+    "triangles": 9254,
+    "use": "2 · plants — succulent rosettes of the crystalline ice plant (Mesembryanthemum crystallinum, native to Mediterranean coasts) for cove rocks and the cliff-top edge.",
+    "notes": "8 variants, 5-30 cm. Alpha-tested, double-sided.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "iceplant-coastal_a",
+        "size": [
+          0.276,
+          0.081,
+          0.316
+        ],
+        "triangles": 1499
+      },
+      {
+        "node": "iceplant-coastal_b",
+        "size": [
+          0.28,
+          0.066,
+          0.306
+        ],
+        "triangles": 1500
+      },
+      {
+        "node": "iceplant-coastal_c",
+        "size": [
+          0.267,
+          0.06,
+          0.227
+        ],
+        "triangles": 1499
+      },
+      {
+        "node": "iceplant-coastal_d",
+        "size": [
+          0.144,
+          0.038,
+          0.183
+        ],
+        "triangles": 1500
+      },
+      {
+        "node": "iceplant-coastal_e",
+        "size": [
+          0.153,
+          0.028,
+          0.112
+        ],
+        "triangles": 1356
+      },
+      {
+        "node": "iceplant-coastal_f",
+        "size": [
+          0.112,
+          0.028,
+          0.088
+        ],
+        "triangles": 852
+      },
+      {
+        "node": "iceplant-coastal_g",
+        "size": [
+          0.108,
+          0.029,
+          0.092
+        ],
+        "triangles": 600
+      },
+      {
+        "node": "iceplant-coastal_h",
+        "size": [
+          0.054,
+          0.017,
+          0.059
+        ],
+        "triangles": 448
+      }
+    ],
+    "alphaMode": "MASK",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 327012,
+    "sourceFilesHash": "0344e1f831a707e73f4bde5e29c2fa8a7cb14563",
+    "recipe": "82b3cd03ec19"
+  },
+  "nettle-clump": {
+    "file": "assets/models/open/nettle-clump.glb",
+    "source": "polyhaven",
+    "sourceId": "nettle_plant",
+    "name": "Nettle Plant",
+    "authors": [
+      "Rob Tuytel",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/nettle_plant",
+    "size": [
+      0.104,
+      0.217,
+      0.095
+    ],
+    "triangles": 13588,
+    "use": "2 · plants — nettle sprigs (Urtica, native) for wall bases, the goat pasture and neglected corners.",
+    "notes": "6 variants, 6-22 cm tall; scale x2-4 for mature clumps. Alpha-tested, double-sided.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "nettle-clump_medium_a",
+        "size": [
+          0.077,
+          0.131,
+          0.089
+        ],
+        "triangles": 2500
+      },
+      {
+        "node": "nettle-clump_medium_b",
+        "size": [
+          0.065,
+          0.105,
+          0.066
+        ],
+        "triangles": 2500
+      },
+      {
+        "node": "nettle-clump_small_a",
+        "size": [
+          0.064,
+          0.063,
+          0.043
+        ],
+        "triangles": 2500
+      },
+      {
+        "node": "nettle-clump_small_b",
+        "size": [
+          0.06,
+          0.022,
+          0.039
+        ],
+        "triangles": 1088
+      },
+      {
+        "node": "nettle-clump_tall_a",
+        "size": [
+          0.104,
+          0.217,
+          0.09
+        ],
+        "triangles": 2500
+      },
+      {
+        "node": "nettle-clump_tall_b",
+        "size": [
+          0.082,
+          0.193,
+          0.095
+        ],
+        "triangles": 2500
+      }
+    ],
+    "alphaMode": "MASK",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 412072,
+    "sourceFilesHash": "8f65dcb085e502c39e2abfa0161f4de2b43c6096",
+    "recipe": "910a0dc4d0e4"
+  },
+  "dry-scrub": {
+    "file": "assets/models/open/dry-scrub.glb",
+    "source": "polyhaven",
+    "sourceId": "wild_rooibos_bush",
+    "name": "Wild Rooibos Bush",
+    "authors": [
+      "James Ray Cock",
+      "Jenelle van Heerden"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/wild_rooibos_bush",
+    "size": [
+      0.691,
+      0.541,
+      0.843
+    ],
+    "triangles": 14652,
+    "use": "2 · plants — dry, needle-leaved low bushes: stand-in for late-summer garrigue (thyme, savory, broom) on the cliff top, goat pasture and dry wall edges.",
+    "notes": "Species is South African (wild rooibos). 5 variants, 0.3-0.85 m. Twigs/leaves alpha-tested, trunk opaque.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "dry-scrub_a",
+        "size": [
+          0.691,
+          0.539,
+          0.843
+        ],
+        "triangles": 4716
+      },
+      {
+        "node": "dry-scrub_b",
+        "size": [
+          0.524,
+          0.541,
+          0.475
+        ],
+        "triangles": 3060
+      },
+      {
+        "node": "dry-scrub_c",
+        "size": [
+          0.425,
+          0.448,
+          0.472
+        ],
+        "triangles": 2999
+      },
+      {
+        "node": "dry-scrub_d",
+        "size": [
+          0.327,
+          0.42,
+          0.384
+        ],
+        "triangles": 2684
+      },
+      {
+        "node": "dry-scrub_e",
+        "size": [
+          0.278,
+          0.306,
+          0.166
+        ],
+        "triangles": 1193
+      }
+    ],
+    "alphaMode": [
+      "MASK",
+      "OPAQUE"
+    ],
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 812336,
+    "sourceFilesHash": "e36b891edee5f1133d3d05b0707a690f8a078f6c",
+    "recipe": "dc58604bf460"
+  },
+  "yellow-wildflower": {
+    "file": "assets/models/open/yellow-wildflower.glb",
+    "source": "polyhaven",
+    "sourceId": "flower_empodium",
+    "name": "Flower Empodium",
+    "authors": [
+      "Jenelle van Heerden",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/flower_empodium",
+    "size": [
+      0.217,
+      0.267,
+      0.251
+    ],
+    "triangles": 3053,
+    "use": "2 · plants — tiny yellow star flowers in grass-like leaves (stand-in for Sternbergia / star-of-Bethlehem); lawn and meadow sprinkles.",
+    "notes": "Species is South African (Empodium). 5 variants, 0.1-0.27 m. Very cheap (~3k tris for all). Alpha-tested.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "yellow-wildflower_a",
+        "size": [
+          0.217,
+          0.267,
+          0.251
+        ],
+        "triangles": 758
+      },
+      {
+        "node": "yellow-wildflower_b",
+        "size": [
+          0.182,
+          0.191,
+          0.205
+        ],
+        "triangles": 758
+      },
+      {
+        "node": "yellow-wildflower_c",
+        "size": [
+          0.217,
+          0.179,
+          0.158
+        ],
+        "triangles": 933
+      },
+      {
+        "node": "yellow-wildflower_d",
+        "size": [
+          0.194,
+          0.168,
+          0.194
+        ],
+        "triangles": 360
+      },
+      {
+        "node": "yellow-wildflower_e",
+        "size": [
+          0.111,
+          0.147,
+          0.166
+        ],
+        "triangles": 244
+      }
+    ],
+    "alphaMode": "MASK",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 170196,
+    "sourceFilesHash": "9b07e5501c6a00074d6bd55df2571f61687b2185",
+    "recipe": "47b4e9f81150"
+  },
+  "dandelion": {
+    "file": "assets/models/open/dandelion.glb",
+    "source": "polyhaven",
+    "sourceId": "dandelion_01",
+    "name": "Dandelion 01",
+    "authors": [
+      "Rob Tuytel",
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/dandelion_01",
+    "size": [
+      0.22,
+      0.164,
+      0.258
+    ],
+    "triangles": 9999,
+    "use": "2 · plants — dandelion rosettes with yellow heads (native; eaten as a wild green) for lawn edges and path cracks.",
+    "notes": "5 variants, 0.12-0.22 m. Alpha-tested.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "dandelion_a",
+        "size": [
+          0.22,
+          0.164,
+          0.258
+        ],
+        "triangles": 2000
+      },
+      {
+        "node": "dandelion_b",
+        "size": [
+          0.202,
+          0.114,
+          0.218
+        ],
+        "triangles": 2000
+      },
+      {
+        "node": "dandelion_c",
+        "size": [
+          0.17,
+          0.101,
+          0.167
+        ],
+        "triangles": 1999
+      },
+      {
+        "node": "dandelion_d",
+        "size": [
+          0.122,
+          0.055,
+          0.144
+        ],
+        "triangles": 2000
+      },
+      {
+        "node": "dandelion_e",
+        "size": [
+          0.214,
+          0.047,
+          0.205
+        ],
+        "triangles": 2000
+      }
+    ],
+    "alphaMode": "MASK",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 351076,
+    "sourceFilesHash": "1aaae5d9ce759a84e3b9d381821c8647cefa7a85",
+    "recipe": "a33349165ef1"
+  },
+  "marble-bust": {
+    "file": "assets/models/open/marble-bust.glb",
+    "source": "polyhaven",
+    "sourceId": "marble_bust_01",
+    "name": "Marble Bust 01",
+    "authors": [
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/marble_bust_01",
+    "size": [
+      0.272,
+      0.515,
+      0.3
+    ],
+    "triangles": 14000,
+    "use": "3 · sculpture — white marble male portrait bust on a round foot; study bust column (STUDY.bustColumn), niches, peristyle.",
+    "notes": "Renaissance-style but reads as a Roman Republican/Julio-Claudian portrait. 0.27 x 0.51 x 0.30 m (life size). Face looks to +Z.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 523412,
+    "sourceFilesHash": "7a118fddaa2d7823e16cf3647b9075d373a81164",
+    "recipe": "d5c678799ad7"
+  },
+  "urn-planter": {
+    "file": "assets/models/open/urn-planter.glb",
+    "source": "polyhaven",
+    "sourceId": "potted_plant_01",
+    "name": "Potted Plant 01",
+    "authors": [
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/potted_plant_01",
+    "size": [
+      0.466,
+      0.531,
+      0.466
+    ],
+    "triangles": 9440,
+    "use": "3 · garden vessels — terracotta urn-shaped planter on a pedestal foot, filled with gravel; peristyle and terrace planters (plant your own shrub in it).",
+    "notes": "The source houseplant (leaves/stem) is removed. 0.47 x 0.53 m. Gravel top sits ~0.45 m above the base.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 670492,
+    "sourceFilesHash": "9fa70d49cb125b1b74e3aeddef22253ba2db060b",
+    "recipe": "e3eefa171ee7"
+  },
+  "terracotta-pot": {
+    "file": "assets/models/open/terracotta-pot.glb",
+    "source": "polyhaven",
+    "sourceId": "planter_pot_clay",
+    "name": "Planter Pot Clay",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/planter_pot_clay",
+    "size": [
+      0.266,
+      0.222,
+      0.263
+    ],
+    "triangles": 3080,
+    "use": "3 · garden vessels — weathered terracotta flower pot (Roman gardens used similar clay pots, ollae perforatae, for planting).",
+    "notes": "0.27 x 0.22 m. Empty (no soil).",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 141184,
+    "sourceFilesHash": "9add1027ddc7f4f0bcc83024d2bdf7715dea8b5d",
+    "recipe": "a770ec136dfe"
+  },
+  "wooden-bowl": {
+    "file": "assets/models/open/wooden-bowl.glb",
+    "source": "polyhaven",
+    "sourceId": "wooden_bowl_02",
+    "name": "Wooden Bowl 02",
+    "authors": [
+      "Kuutti Siitonen"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/wooden_bowl_02",
+    "size": [
+      0.131,
+      0.073,
+      0.125
+    ],
+    "triangles": 4666,
+    "use": "4 · props — small hand-carved wooden bowl (olives, figs, pomegranates) for the study table and kitchen corners.",
+    "notes": "0.13 x 0.07 m.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 269560,
+    "sourceFilesHash": "203f860d0142d73da28bfd91a7a982532caf87ee",
+    "recipe": "cd266048065b"
+  },
+  "pomegranate": {
+    "file": "assets/models/open/pomegranate.glb",
+    "source": "polyhaven",
+    "sourceId": "food_pomegranate_01",
+    "name": "Food Pomegranate 01",
+    "authors": [
+      "Oliver Harries"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/food_pomegranate_01",
+    "size": [
+      0.114,
+      0.115,
+      0.115
+    ],
+    "triangles": 1500,
+    "use": "4 · props — pomegranate fruit (Punica granatum, ubiquitous in Pompeian frescoes) for bowls, the study table, a fruit tree.",
+    "notes": "11 cm. Decimated from 8k tris.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 125760,
+    "sourceFilesHash": "3998876df4918643a59766ce2ca12bc609f8b057",
+    "recipe": "71bcdc3d7b60"
+  },
+  "wooden-bucket": {
+    "file": "assets/models/open/wooden-bucket.glb",
+    "source": "polyhaven",
+    "sourceId": "wooden_bucket_01",
+    "name": "Wooden Bucket 01",
+    "authors": [
+      "James Ray Cock"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/wooden_bucket_01",
+    "size": [
+      0.367,
+      0.55,
+      0.342
+    ],
+    "triangles": 5116,
+    "use": "4 · props — stave bucket with iron hoops and bail handle (wooden buckets of this type are known from Roman sites); garden, well, cove.",
+    "notes": "0.37 x 0.55 m including the raised handle.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 563880,
+    "sourceFilesHash": "8d260ae5188bca1ef50676560a2c7a4160c82100",
+    "recipe": "ba3320146ac8"
+  },
+  "wooden-tub": {
+    "file": "assets/models/open/wooden-tub.glb",
+    "source": "polyhaven",
+    "sourceId": "wooden_bucket_02",
+    "name": "Wooden Bucket 02",
+    "authors": [
+      "James Ray Cock"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/wooden_bucket_02",
+    "size": [
+      0.615,
+      0.35,
+      0.616
+    ],
+    "triangles": 7252,
+    "use": "4 · props — low stave tub with two side lugs; laundry / fish tub at the cove, garden watering.",
+    "notes": "0.62 x 0.35 m.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 635032,
+    "sourceFilesHash": "a40353bab070ec4e81471ce7c16feabad6b2a163",
+    "recipe": "fa35d6ec87eb"
+  },
+  "folding-stool": {
+    "file": "assets/models/open/folding-stool.glb",
+    "source": "polyhaven",
+    "sourceId": "folding_wooden_stool",
+    "name": "Folding Wooden Stool",
+    "authors": [
+      "Ulan Cabanilla"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/folding_wooden_stool",
+    "size": [
+      0.528,
+      0.442,
+      0.547
+    ],
+    "triangles": 6324,
+    "use": "4 · props — X-frame folding stool, a stand-in for the Roman sella plicatilis; study, portico, cove.",
+    "notes": "0.53 x 0.44 x 0.55 m. Slatted wooden seat (a Roman one would have leather) — fine at a glance.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 625148,
+    "sourceFilesHash": "3892e7a739a932db568f2493f78dabfd162416c3",
+    "recipe": "dd6d5ecc6740"
+  },
+  "wicker-basket": {
+    "file": "assets/models/open/wicker-basket.glb",
+    "source": "polyhaven",
+    "sourceId": "wicker_basket_01",
+    "name": "Wicker Basket 01",
+    "authors": [
+      "Kuutti Siitonen"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/wicker_basket_01",
+    "size": [
+      0.383,
+      0.117,
+      0.295
+    ],
+    "triangles": 14918,
+    "use": "4 · props — shallow rectangular woven basket; fish at the cove, figs/herbs in the garden.",
+    "notes": "0.38 x 0.12 x 0.30 m. Decimated from 22k tris; the weave lives mostly in the normal map.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 690148,
+    "sourceFilesHash": "49f624a285b5e5dc8fe4b75ad18cf5d18d8cdca1",
+    "recipe": "a30da824062f"
+  },
+  "jetty-section": {
+    "file": "assets/models/open/jetty-section.glb",
+    "source": "polyhaven",
+    "sourceId": "modular_wooden_pier",
+    "name": "Modular Wooden Pier",
+    "authors": [
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/modular_wooden_pier",
+    "size": [
+      2.507,
+      3.838,
+      3.392
+    ],
+    "triangles": 11758,
+    "use": "6 · other — one bay of a timber landing stage on piles for the cove (where the boat moors); chain 2-3 copies.",
+    "notes": "One module (section_02) of Poly Haven \"Modular Wooden Pier\": 2.5 m wide, deck 2.9 m long along Z, one pair of piles. Pile feet at y=0, deck top at 3.61 m, pile tops 3.84 m: sink it so the deck is ~1 m above the water. Chain copies every 2.91 m along Z and close the open end with rocks or a second module.",
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 531472,
+    "sourceFilesHash": "219aafe4dfbcc2ebac731ae205bebfd5837c6138",
+    "recipe": "a0c5d950a66d"
+  },
+  "driftwood": {
+    "file": "assets/models/open/driftwood.glb",
+    "source": "polyhaven",
+    "sourceId": "dry_branches_medium_01",
+    "name": "Dry Branches Medium 01",
+    "authors": [
+      "Rico Cilliers"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/dry_branches_medium_01",
+    "size": [
+      0.323,
+      0.341,
+      1.299
+    ],
+    "triangles": 7497,
+    "use": "6 · other — 3 gnarled dry branches: driftwood on the beach, prunings under olives and along the pergola.",
+    "notes": "3 variants, 0.8-1.3 m long.",
+    "forward": "+Z",
+    "pivot": "bottom-center (per variant)",
+    "variants": [
+      {
+        "node": "driftwood_c",
+        "size": [
+          0.131,
+          0.143,
+          0.777
+        ],
+        "triangles": 2500
+      },
+      {
+        "node": "driftwood_b",
+        "size": [
+          0.151,
+          0.141,
+          1.039
+        ],
+        "triangles": 2498
+      },
+      {
+        "node": "driftwood_a",
+        "size": [
+          0.323,
+          0.341,
+          1.299
+        ],
+        "triangles": 2499
+      }
+    ],
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 971716,
+    "sourceFilesHash": "9707cc29f837b6946d6787c231b522dc2ed69573",
+    "recipe": "45d9864af120"
+  },
+  "stone-fire-pit": {
+    "file": "assets/models/open/stone-fire-pit.glb",
+    "source": "polyhaven",
+    "sourceId": "stone_fire_pit",
+    "name": "Stone Fire Pit",
+    "authors": [
+      "Sebastian Platen"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/stone_fire_pit",
+    "size": [
+      1.448,
+      0.388,
+      1.433
+    ],
+    "triangles": 3887,
+    "use": "6 · other — ring of grey stones around ashes: fishermen's cooking fire at the cove (life detail).",
+    "notes": "1.45 m across. Pivot is the ground plane (the ash bowl dips ~0.19 m below it). Add a small flame/smoke effect at the centre if lit.",
+    "forward": "+Z",
+    "pivot": "center XZ, source ground plane at y=0 (mesh reaches y=-0.193)",
+    "alphaMode": "OPAQUE",
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture",
+          "occlusionTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 764848,
+    "sourceFilesHash": "db8f04edd02bcfd3bae277fe17f585be17f7c7d9",
+    "recipe": "57f3af12e530"
+  }
+}

@@ -1,0 +1,595 @@
+{
+  "ground-meadow": {
+    "id": "withered_grass",
+    "name": "Withered Grass",
+    "authors": [
+      "Charlotte Baglioni"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/withered_grass",
+    "files": {
+      "color": "assets/textures/ground-meadow/color.jpg",
+      "normal": "assets/textures/ground-meadow/normal.jpg",
+      "arm": "assets/textures/ground-meadow/arm.jpg"
+    },
+    "physicalSize": 2,
+    "resolution": "1k",
+    "note": "Sun-bleached straw-coloured dry grass over soil; warm, late-summer Mediterranean, not lush green.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "eb88811d5af353e86750f73f412bf5aea3f7c8ab",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/withered_grass/withered_grass_diff_1k.jpg",
+          "md5": "a6e00946839a9ab1975457ae4a39823b",
+          "originalBytes": 1138384,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 333866
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/withered_grass/withered_grass_nor_gl_1k.jpg",
+          "md5": "1d86c19a4dd4826eeb6db9653f8736bb",
+          "originalBytes": 1472149,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 717443
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/withered_grass/withered_grass_arm_1k.jpg",
+          "md5": "d6c0f0249d24003e7aa32caf66f669e2",
+          "originalBytes": 1109845,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 257680
+        }
+      }
+    }
+  },
+  "ground-garden": {
+    "id": "yellow_flower_mulch",
+    "name": "Yellow Flower Mulch",
+    "authors": [
+      "Dimitrios Savva"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/yellow_flower_mulch",
+    "files": {
+      "color": "assets/textures/ground-garden/color.jpg",
+      "normal": "assets/textures/ground-garden/normal.jpg",
+      "arm": "assets/textures/ground-garden/arm.jpg"
+    },
+    "physicalSize": 2,
+    "resolution": "1k",
+    "note": "Fine, dark, even garden soil/mulch with tiny petal flecks; reads as tended peristyle beds.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "c3a5ca740e27a19ad094b7b8d86f935500bd6c24",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/yellow_flower_mulch/yellow_flower_mulch_diff_1k.jpg",
+          "md5": "ac90d469d6e881b3d3aeee65ae1554d2",
+          "originalBytes": 1000861,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 229599
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/yellow_flower_mulch/yellow_flower_mulch_nor_gl_1k.jpg",
+          "md5": "42044d4dbd9c6c065980c853bf5e931e",
+          "originalBytes": 1438415,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 704779
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/yellow_flower_mulch/yellow_flower_mulch_arm_1k.jpg",
+          "md5": "3e975fcfa16432539bcb0e45b836601b",
+          "originalBytes": 1082800,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 251283
+        }
+      }
+    }
+  },
+  "path-gravel": {
+    "id": "gravel_floor",
+    "name": "Gravel Floor",
+    "authors": [
+      "Jenelle van Heerden",
+      "Matterfield"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/gravel_floor",
+    "files": {
+      "color": "assets/textures/path-gravel/color.jpg",
+      "normal": "assets/textures/path-gravel/normal.jpg",
+      "arm": "assets/textures/path-gravel/arm.jpg"
+    },
+    "physicalSize": 2.25,
+    "resolution": "1k",
+    "note": "Light warm tan fine gravel; compacted path look without large stones.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "88754f2598990c0849176de944b0745ed569b018",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_diff_1k.jpg",
+          "md5": "4f055e1545dcf41f347600fbb01d9ac2",
+          "originalBytes": 1327302,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 411167
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_nor_gl_1k.jpg",
+          "md5": "2377939c71250cf32f8b842bc4f3fe82",
+          "originalBytes": 1538430,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 761826
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gravel_floor/gravel_floor_arm_1k.jpg",
+          "md5": "c84786c681869232bb832910f28e0630",
+          "originalBytes": 1037640,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 217226
+        }
+      }
+    }
+  },
+  "paving-stone": {
+    "id": "marble_01",
+    "name": "Marble 01",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/marble_01",
+    "files": {
+      "color": "assets/textures/paving-stone/color.jpg",
+      "normal": "assets/textures/paving-stone/normal.jpg",
+      "arm": "assets/textures/paving-stone/arm.jpg"
+    },
+    "physicalSize": 1.5,
+    "resolution": "1k",
+    "note": "Cream travertine-like rectangular slabs with natural pitting; reads as Roman portico/terrace paving.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "11a4d204569907b76e1c4f7ef06a8b3fa90b5930",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_diff_1k.jpg",
+          "md5": "04325ced5018eb8a2e598a4ef69cb176",
+          "originalBytes": 305029,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 305029
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_nor_gl_1k.jpg",
+          "md5": "fa073d722cde733c1bd6cc6e8897c8e3",
+          "originalBytes": 110230,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 110230
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_arm_1k.jpg",
+          "md5": "51017a4e4f320c3b58763c66727d89c1",
+          "originalBytes": 54740,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 54740
+        }
+      }
+    }
+  },
+  "plaster-wall": {
+    "id": "medieval_wall_01",
+    "name": "Medieval Wall 01",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/medieval_wall_01",
+    "files": {
+      "color": "assets/textures/plaster-wall/color.jpg",
+      "normal": "assets/textures/plaster-wall/normal.jpg",
+      "arm": "assets/textures/plaster-wall/arm.jpg"
+    },
+    "physicalSize": 2,
+    "resolution": "1k",
+    "note": "Weathered cream/ochre lime plaster with soft patchy wear; tintable for villa walls.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "08c1f2f29ee8aaf1d09d0b785eb66c6f5292393b",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/medieval_wall_01/medieval_wall_01_diff_1k.jpg",
+          "md5": "68de2124c203e297a89677ce0c52dc99",
+          "originalBytes": 598413,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 598413
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/medieval_wall_01/medieval_wall_01_nor_gl_1k.jpg",
+          "md5": "00b700de2ffcf17ab81bfde53d767c3a",
+          "originalBytes": 861497,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 722815
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/medieval_wall_01/medieval_wall_01_arm_1k.jpg",
+          "md5": "6c897743ef852c7348132f733cfafe89",
+          "originalBytes": 137562,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 137562
+        }
+      }
+    }
+  },
+  "roof-tiles": {
+    "id": "clay_roof_tiles_02",
+    "name": "Clay Roof Tiles 02",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/clay_roof_tiles_02",
+    "files": {
+      "color": "assets/textures/roof-tiles/color.jpg",
+      "normal": "assets/textures/roof-tiles/normal.jpg",
+      "arm": "assets/textures/roof-tiles/arm.jpg"
+    },
+    "physicalSize": 2.5,
+    "resolution": "1k",
+    "note": "Irregular orange barrel (coppi-style) terracotta tiles, the closest match to tegula/imbrex roofs.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "a9f30dc8f73f248bfbaeed2325690422c5c8dd1d",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_diff_1k.jpg",
+          "md5": "43c45fa3ac4c68ffb28aa813cec32608",
+          "originalBytes": 903929,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 176585
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_nor_gl_1k.jpg",
+          "md5": "9e24ddc6fbf048291f8e24bfb1f16e6d",
+          "originalBytes": 990101,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 396802
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_arm_1k.jpg",
+          "md5": "b3ecf39f9c8eb803131f84fbfe20e865",
+          "originalBytes": 564611,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 564611
+        }
+      }
+    }
+  },
+  "marble": {
+    "id": "marble_rock_02",
+    "name": "Marble Rock 02",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/marble_rock_02",
+    "files": {
+      "color": "assets/textures/marble/color.jpg",
+      "normal": "assets/textures/marble/normal.jpg",
+      "arm": "assets/textures/marble/arm.jpg"
+    },
+    "physicalSize": 2,
+    "resolution": "1k",
+    "note": "Seamless cream marble with fine dark veining and no tile joints; works on columns, bench, fountain.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "742ee4ef720bcf2d63a9b88f9d542388b6346d3b",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_rock_02/marble_rock_02_diff_1k.jpg",
+          "md5": "10da23cf9e82abc7f47b5d77eccae94b",
+          "originalBytes": 733533,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 120216
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_rock_02/marble_rock_02_nor_gl_1k.jpg",
+          "md5": "d93a8d09f44ee46e7313a953659fb39e",
+          "originalBytes": 733930,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 205982
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_rock_02/marble_rock_02_arm_1k.jpg",
+          "md5": "41ccdb84a11c6b7b47352ed4e653e510",
+          "originalBytes": 430823,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 430823
+        }
+      }
+    }
+  },
+  "rock-cliff": {
+    "id": "marble_cliff_04",
+    "name": "Marble Cliff 04",
+    "authors": [
+      "Amal Kumar"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/marble_cliff_04",
+    "files": {
+      "color": "assets/textures/rock-cliff/color.jpg",
+      "normal": "assets/textures/rock-cliff/normal.jpg",
+      "arm": "assets/textures/rock-cliff/arm.jpg"
+    },
+    "physicalSize": 12.66,
+    "resolution": "1k",
+    "note": "Pale grey-beige fractured limestone cliff face with warm staining, like the Sorrento/Capri coast.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "7e9bc54be6f92260e70a8d674400401f2e691346",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_cliff_04/marble_cliff_04_diff_1k.jpg",
+          "md5": "9ecd75e972387f05ff6d0b4583c5f38f",
+          "originalBytes": 1026521,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 264450
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_cliff_04/marble_cliff_04_nor_gl_1k.jpg",
+          "md5": "e94a29ba0f434e472ad709ce4b8fb0a4",
+          "originalBytes": 1072825,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 462830
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_cliff_04/marble_cliff_04_arm_1k.jpg",
+          "md5": "5eb6cd1a011f506cd04d0f43a8ca797f",
+          "originalBytes": 792173,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 123222
+        }
+      }
+    }
+  },
+  "wood-weathered": {
+    "id": "brown_planks_03",
+    "name": "Brown Planks 03",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/brown_planks_03",
+    "files": {
+      "color": "assets/textures/wood-weathered/color.jpg",
+      "normal": "assets/textures/wood-weathered/normal.jpg",
+      "arm": "assets/textures/wood-weathered/arm.jpg"
+    },
+    "physicalSize": 1,
+    "resolution": "1k",
+    "note": "Silver-grey sun-weathered untreated planks (coastal/boat wood) for pergola, table and doors.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "dc9ddbd1646f29747e9571f5bf7abd7a28975a80",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_planks_03/brown_planks_03_diff_1k.jpg",
+          "md5": "6c9fdc21afcdf171d0a39999392a70f4",
+          "originalBytes": 570668,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 570668
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_planks_03/brown_planks_03_nor_gl_1k.jpg",
+          "md5": "4944cb903b7d7c4029310deb8a51d69e",
+          "originalBytes": 516860,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 516860
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_planks_03/brown_planks_03_arm_1k.jpg",
+          "md5": "ce863d98248b4f7005a238b182e70b60",
+          "originalBytes": 126038,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 126038
+        }
+      }
+    }
+  },
+  "bark": {
+    "id": "bark_willow_02",
+    "name": "Bark Willow 02",
+    "authors": [
+      "Charlotte Baglioni"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/bark_willow_02",
+    "files": {
+      "color": "assets/textures/bark/color.jpg",
+      "normal": "assets/textures/bark/normal.jpg",
+      "arm": "assets/textures/bark/arm.jpg"
+    },
+    "physicalSize": 2.15,
+    "resolution": "1k",
+    "note": "Grey-brown deeply fissured bark, close to old olive trunks.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "cf8e6e6f070a79e58fb6e9607b6a230f5e93db4d",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/bark_willow_02/bark_willow_02_diff_1k.jpg",
+          "md5": "384e25dd87b6b606458c9aa5f84735aa",
+          "originalBytes": 998966,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 257588
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/bark_willow_02/bark_willow_02_nor_gl_1k.jpg",
+          "md5": "eb381e522a4053d6ca4ce7e31c77dcd3",
+          "originalBytes": 1358916,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 662822
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/bark_willow_02/bark_willow_02_arm_1k.jpg",
+          "md5": "1cc9a7e2be789f369bb0d51232923976",
+          "originalBytes": 951173,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 189622
+        }
+      }
+    }
+  },
+  "brick-roman": {
+    "id": "medieval_red_brick",
+    "name": "Medieval Red Brick",
+    "authors": [
+      "Rob Tuytel"
+    ],
+    "license": "CC0",
+    "url": "https://polyhaven.com/a/medieval_red_brick",
+    "files": {
+      "color": "assets/textures/brick-roman/color.jpg",
+      "normal": "assets/textures/brick-roman/normal.jpg",
+      "arm": "assets/textures/brick-roman/arm.jpg"
+    },
+    "physicalSize": 2,
+    "resolution": "1k",
+    "note": "Thin, long red bricks with wide mortar beds, proportioned like opus testaceum.",
+    "provenance": {
+      "source": "Poly Haven (https://polyhaven.com), via api.polyhaven.com",
+      "licenseUrl": "https://polyhaven.com/license",
+      "filesHash": "0c85fc4d6307962d24b467ac6266c8cbce5a353f",
+      "maps": {
+        "color": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/medieval_red_brick/medieval_red_brick_diff_1k.jpg",
+          "md5": "217f3e9db4fa2a89dfa49d5bf5e5bf97",
+          "originalBytes": 872053,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 166446
+        },
+        "normal": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/medieval_red_brick/medieval_red_brick_nor_gl_1k.jpg",
+          "md5": "e4e1bde5cf80bd1aa9c4614d2d06ef53",
+          "originalBytes": 1186400,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 2 (~IJG 91)",
+          "bytes": 545693
+        },
+        "arm": {
+          "from": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/medieval_red_brick/medieval_red_brick_arm_1k.jpg",
+          "md5": "b9418925188c756fb86817e6ba7a2120",
+          "originalBytes": 741039,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": "ffmpeg mjpeg -q:v 4 (~IJG 81)",
+          "bytes": 100203
+        }
+      }
+    }
+  },
+  "water": {
+    "id": "waternormals",
+    "name": "three.js Water Normals",
+    "authors": [
+      "three.js authors"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/mrdoob/three.js/blob/r170/examples/textures/waternormals.jpg",
+    "files": {
+      "normal": "assets/textures/water/waternormals.jpg"
+    },
+    "resolution": "1k",
+    "note": "Tiling ocean normal map used by three.js examples (Water shader).",
+    "provenance": {
+      "source": "three.js repository @ r170",
+      "licenseUrl": "https://github.com/mrdoob/three.js/blob/r170/LICENSE",
+      "copyright": "Copyright © 2010-2024 three.js authors",
+      "licenseFile": "assets/textures/water/LICENSE-three.js.txt",
+      "maps": {
+        "normal": {
+          "from": "https://raw.githubusercontent.com/mrdoob/three.js/r170/examples/textures/waternormals.jpg",
+          "md5": "4418dde3f6abc21dc32506acf5f5b093",
+          "originalBytes": 248813,
+          "width": 1024,
+          "height": 1024,
+          "reencoded": null,
+          "bytes": 248813
+        }
+      }
+    }
+  }
+}

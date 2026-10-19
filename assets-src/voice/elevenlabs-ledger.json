@@ -1,0 +1,154 @@
+{
+  "budgetChars": 25000,
+  "approved": "2026-10-19",
+  "entries": [
+    {
+      "at": "2026-10-19T18:28:17.080Z",
+      "kind": "audition",
+      "voice": "stanislav",
+      "voiceId": "ogi2DyUAKJb7CEdqqvlU",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:28:27.575Z",
+      "kind": "audition",
+      "voice": "sergey",
+      "voiceId": "XuEV9VY3VUASYgJVNBh0",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:28:38.274Z",
+      "kind": "audition",
+      "voice": "nester",
+      "voiceId": "pM78bgjPVk0JXtaEnFoj",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:28:50.735Z",
+      "kind": "audition",
+      "voice": "ivan",
+      "voiceId": "1qd9R09Ljlx9V1Ok0t5S",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:29:00.886Z",
+      "kind": "audition",
+      "voice": "marat",
+      "voiceId": "vQxSi2EuaRWwBw3nn6dK",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:29:11.779Z",
+      "kind": "audition",
+      "voice": "vasko",
+      "voiceId": "Vl27Cllkuw8BhyPqus2n",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:29:31.209Z",
+      "kind": "voice-design",
+      "chars": 340
+    },
+    {
+      "at": "2026-10-19T18:36:47.004Z",
+      "kind": "audition",
+      "voice": "sage",
+      "voiceId": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:36:59.094Z",
+      "kind": "audition",
+      "voice": "joe",
+      "voiceId": "0lp4RIz96WD1RUtvEu3Q",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:37:09.946Z",
+      "kind": "audition",
+      "voice": "sully",
+      "voiceId": "wAGzRVkxKEs8La0lmdrE",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:37:21.272Z",
+      "kind": "audition",
+      "voice": "adam",
+      "voiceId": "U5UjeJMsOvyhYhXfZdvZ",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:37:33.773Z",
+      "kind": "audition",
+      "voice": "gregory",
+      "voiceId": "8TMmdpPgqHKvDOGYP2lN",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:37:46.284Z",
+      "kind": "audition",
+      "voice": "cornelius",
+      "voiceId": "6sFKzaJr574YWVu4UuJF",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:37:57.745Z",
+      "kind": "audition",
+      "voice": "arcad",
+      "voiceId": "kuR1PV7xDOsP38QMSEvD",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T18:38:08.417Z",
+      "kind": "audition",
+      "voice": "nazarov",
+      "voiceId": "lxY8Pn0yWs1Ve9rBceah",
+      "model": "eleven_v4",
+      "chars": 197
+    },
+    {
+      "at": "2026-10-19T19:00:11.251889+00:00",
+      "kind": "narration",
+      "chars": 1348,
+      "note": "29 lines, voice sage (HAvvFKatz0uu0Fv55Riy), eleven_v4"
+    },
+    {
+      "at": "2026-10-19T19:00:11.251889+00:00",
+      "kind": "narration-fix",
+      "chars": 68,
+      "note": "L03 stress fix"
+    },
+    {
+      "at": "2026-10-19T19:00:11.251889+00:00",
+      "kind": "narration-retake",
+      "chars": 94,
+      "note": "A-sea, L16 seed-offset 1"
+    },
+    {
+      "at": "2026-10-19T19:00:11.251889+00:00",
+      "kind": "greeting-variants",
+      "chars": 517,
+      "note": "3 greeting variants + L01"
+    },
+    {
+      "at": "2026-10-19T19:04:11.500555+00:00",
+      "kind": "narration",
+      "chars": 146,
+      "note": "greeting variant 2: A-greet-1, A-greet-2, A-letter"
+    }
+  ],
+  "spentChars": 5271
+}

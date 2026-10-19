@@ -1,0 +1,50 @@
+/* Design tokens for the DOM UI. Warm ivory on translucent umber, hairline gold. */
+:root {
+  /* Colour */
+  --ui-ivory: #f1e8d8;
+  --ui-ivory-text: #f4ecdd;
+  --ui-ivory-2: rgba(241, 232, 216, 0.8);
+  --ui-ivory-3: rgba(241, 232, 216, 0.58);
+  --ui-ivory-4: rgba(241, 232, 216, 0.38);
+  --ui-ivory-line: rgba(241, 232, 216, 0.14);
+  --ui-gold: #c8a46a;
+  --ui-gold-2: rgba(200, 164, 106, 0.8);
+  --ui-gold-line: rgba(200, 164, 106, 0.34);
+  --ui-gold-faint: rgba(200, 164, 106, 0.15);
+  --ui-ink: rgba(18, 14, 10, 0.62);
+  --ui-ink-strong: rgba(16, 12, 9, 0.82);
+  --ui-black-warm: #0e0a07;
+
+  /* Type */
+  --ui-font-antiqua: 'Cormorant Garamond', 'Cormorant', Garamond, 'Times New Roman', serif;
+  --ui-font-text: 'Spectral', 'Iowan Old Style', Georgia, serif;
+  --ui-font-ui: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --ui-sub-size: clamp(19px, 0.9rem + 0.55vw, 30px);
+  --ui-sub-size-large: clamp(23px, 1.08rem + 0.68vw, 37px);
+  --ui-letter-size: clamp(17px, 0.6vw + 11px, 21px);
+
+  --ui-shadow-text: 0 1px 2px rgba(8, 6, 4, 0.78), 0 0 12px rgba(8, 6, 4, 0.5), 0 0 30px rgba(8, 6, 4, 0.32);
+  --ui-shadow-text-soft: 0 1px 2px rgba(8, 6, 4, 0.6), 0 0 16px rgba(8, 6, 4, 0.4);
+
+  /* Space */
+  --ui-gutter: clamp(24px, 3.2vw, 64px);
+  --ui-title-inset: clamp(36px, 8vw, 168px);
+  --ui-modal-pad: clamp(20px, 4vh, 48px);
+
+  /* Surfaces */
+  --ui-blur: blur(16px) saturate(112%);
+  --ui-panel-bg: linear-gradient(180deg, rgba(27, 21, 15, 0.76), rgba(16, 12, 9, 0.72));
+  --ui-panel-border: rgba(200, 164, 106, 0.2);
+
+  /* Motion */
+  --ui-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ui-ease-in-out: cubic-bezier(0.45, 0, 0.25, 1);
+  --ui-rise: 10px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ui-rise: 0px;
+  }
+}

@@ -1,0 +1,911 @@
+{
+  "meta": {
+    "letterId": "letter-01",
+    "titleRu": "Письмо I. О времени",
+    "latinTitle": "Epistulae morales ad Lucilium, I",
+    "translation": {
+      "label": "Рабочий перевод с латинского, подготовленный для прототипа «Seneca: The Art of Time» (2026)",
+      "note": "Новый самостоятельный перевод непосредственно с латинского оригинала. Не является опубликованным или официальным переводом; перевод С. А. Ошерова использовался только как библиографический ориентир и в проект не копировался.",
+      "latinSource": "https://la.wikisource.org/wiki/Epistulae_morales_ad_Lucilium/Liber_I",
+      "englishCheck": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1",
+      "russianReference": "https://ancientrome.ru/antlitr/t.htm?a=1346570001"
+    },
+    "authoredNote": "Строки с kind = \"authored\" — художественный текст разработчиков, а не цитата из письма Сенеки."
+  },
+  "blocks": [
+    {
+      "id": "b1",
+      "n": 1,
+      "titleRu": "Время ускользает",
+      "latinRef": "§1",
+      "routeAnchor": "garden"
+    },
+    {
+      "id": "b2",
+      "n": 2,
+      "titleRu": "Каждый день имеет значение",
+      "latinRef": "§2–3 (начало)",
+      "routeAnchor": "cypress-alley"
+    },
+    {
+      "id": "b3",
+      "n": 3,
+      "titleRu": "Время как собственное достояние",
+      "latinRef": "§3",
+      "routeAnchor": "olive-grove"
+    },
+    {
+      "id": "b4",
+      "n": 4,
+      "titleRu": "Признание Сенеки",
+      "latinRef": "§4",
+      "routeAnchor": "pergola"
+    },
+    {
+      "id": "b5",
+      "n": 5,
+      "titleRu": "Завершение",
+      "latinRef": "§5",
+      "routeAnchor": "terrace"
+    }
+  ],
+  "lines": [
+    {
+      "id": "L01",
+      "kind": "letter",
+      "block": "b1",
+      "routeAnchor": "garden",
+      "latin": "Seneca Lucilio suo salutem.",
+      "cues": [
+        {
+          "text": "Сенека шлёт привет своему Луцилию.",
+          "tts": "Сене́ка шлёт привет своему Луци́лию.",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "warm-opening",
+        "ru": "тёплая улыбка, нежность к другу"
+      },
+      "direction": "Разворачивает свиток и читает начало с теплом, как будто Луцилий сам идёт рядом. Тихо, без торжественности.",
+      "v3Tags": "[warmly]",
+      "gesture": "scroll-read",
+      "look": "scroll",
+      "postPause": 1.4
+    },
+    {
+      "id": "L02",
+      "kind": "letter",
+      "block": "b1",
+      "routeAnchor": "garden",
+      "latin": "Ita fac, mi Lucili: vindica te tibi, et tempus quod adhuc aut auferebatur aut subripiebatur aut excidebat collige et serva.",
+      "cues": [
+        {
+          "text": "Поступай так, мой Луцилий: верни себя самому себе.",
+          "tts": "Поступай так, мой Луци́лий: верни себя самому себе.",
+          "pause": 0.55
+        },
+        {
+          "text": "Время, что до сих пор то отнимали у тебя, то похищали, то само ускользало, —",
+          "pause": 0.25
+        },
+        {
+          "text": "собери и сбереги.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "gentle-exhortation",
+        "ru": "доброжелательное наставление"
+      },
+      "direction": "Мягкий, но твёрдый совет старшего друга. «Верни себя самому себе» — с паузой, как главная мысль. Перечисление «отнимали, похищали, ускользало» — неторопливо, каждое слово отдельно.",
+      "v3Tags": "[gently]",
+      "gesture": "open-hand",
+      "look": "player",
+      "postPause": 1.6
+    },
+    {
+      "id": "L03",
+      "kind": "letter",
+      "block": "b1",
+      "routeAnchor": "garden",
+      "latin": "Persuade tibi hoc sic esse ut scribo: quaedam tempora eripiuntur nobis, quaedam subducuntur, quaedam effluunt.",
+      "cues": [
+        {
+          "text": "Будь уверен: всё обстоит именно так, как я пишу.",
+          "pause": 0.5
+        },
+        {
+          "text": "Одни часы у нас вырывают силой, другие уводят исподволь, третьи утекают сами.",
+          "tts": "Одни часы у нас вырывают силой, другие уводят и́сподволь, третьи утекают сами.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "reflective",
+        "ru": "размышление"
+      },
+      "direction": "Задумчиво, будто пересчитывает на пальцах. «Утекает само» — чуть тише, с лёгким сожалением.",
+      "v3Tags": "[thoughtful]",
+      "gesture": "count",
+      "look": "path",
+      "postPause": 1.2
+    },
+    {
+      "id": "L04",
+      "kind": "letter",
+      "block": "b1",
+      "routeAnchor": "garden",
+      "latin": "Turpissima tamen est iactura quae per neglegentiam fit.",
+      "cues": [
+        {
+          "text": "Но самая постыдная утрата — та, что происходит от небрежности.",
+          "tts": "Но самая посты́дная утрата — та, что происходит от небре́жности.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "quiet-regret",
+        "ru": "тихое сожаление"
+      },
+      "direction": "Медленнее, тише. Не обвинение, а признание общей человеческой слабости.",
+      "v3Tags": "[softly]",
+      "gesture": "chest",
+      "look": "path",
+      "postPause": 1.5
+    },
+    {
+      "id": "L05",
+      "kind": "letter",
+      "block": "b1",
+      "routeAnchor": "garden",
+      "latin": "Et si volueris attendere, magna pars vitae elabitur male agentibus, maxima nihil agentibus, tota vita aliud agentibus.",
+      "cues": [
+        {
+          "text": "И если захочешь присмотреться, увидишь:",
+          "pause": 0.45
+        },
+        {
+          "text": "немалая часть жизни ускользает от тех, кто делает дурное,",
+          "pause": 0.3
+        },
+        {
+          "text": "большая — от тех, кто не делает ничего,",
+          "tts": "бо́льшая — от тех, кто не делает ничего,",
+          "pause": 0.35
+        },
+        {
+          "text": "а вся жизнь — от тех, кто делает не то.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "thoughtful-irony",
+        "ru": "вдумчивость с лёгкой иронией"
+      },
+      "direction": "Нарастание по трём ступеням. Последняя фраза — с едва заметной усмешкой и паузой перед «не то».",
+      "v3Tags": "[thoughtful]",
+      "gesture": "count",
+      "look": "player",
+      "postPause": 2.6
+    },
+    {
+      "id": "L06",
+      "kind": "letter",
+      "block": "b2",
+      "routeAnchor": "cypress-alley",
+      "latin": "Quem mihi dabis qui aliquod pretium tempori ponat, qui diem aestimet, qui intellegat se cotidie mori?",
+      "cues": [
+        {
+          "text": "Покажешь ли ты мне человека,",
+          "pause": 0.3
+        },
+        {
+          "text": "который хоть сколько-нибудь ценил бы время, дорожил бы каждым днём,",
+          "pause": 0.35
+        },
+        {
+          "text": "понимал бы, что умирает ежедневно?",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "rhetorical-sadness",
+        "ru": "риторический вопрос, тихая печаль"
+      },
+      "direction": "Спрашивает не собеседника, а скорее самого себя. «Умирает ежедневно» — спокойно, без драмы.",
+      "v3Tags": "[curious]",
+      "gesture": "open-hand",
+      "look": "player",
+      "postPause": 1.6
+    },
+    {
+      "id": "L07",
+      "kind": "letter",
+      "block": "b2",
+      "routeAnchor": "cypress-alley",
+      "latin": "In hoc enim fallimur, quod mortem prospicimus: magna pars eius iam praeterit; quidquid aetatis retro est mors tenet.",
+      "cues": [
+        {
+          "text": "Ведь мы ошибаемся, высматривая смерть впереди:",
+          "pause": 0.55
+        },
+        {
+          "text": "немалая её часть уже миновала;",
+          "pause": 0.4
+        },
+        {
+          "text": "всё, что из наших лет осталось позади, — в руках у смерти.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "finitude",
+        "ru": "осознание конечности времени"
+      },
+      "direction": "Спокойная серьёзность. После «уже прошла» — короткий взгляд назад, на пройденную дорожку.",
+      "v3Tags": "[serious]",
+      "gesture": "point-back",
+      "look": "back",
+      "postPause": 2.0
+    },
+    {
+      "id": "L08",
+      "kind": "letter",
+      "block": "b2",
+      "routeAnchor": "cypress-alley",
+      "latin": "Fac ergo, mi Lucili, quod facere te scribis, omnes horas complectere; sic fiet ut minus ex crastino pendeas, si hodierno manum inieceris.",
+      "cues": [
+        {
+          "text": "Так делай же, мой Луцилий, то, что, по твоим словам, уже делаешь:",
+          "tts": "Так делай же, мой Луци́лий, то, что, по твоим словам, уже делаешь:",
+          "pause": 0.4
+        },
+        {
+          "text": "держи в руках каждый час.",
+          "pause": 0.55
+        },
+        {
+          "text": "Так и выйдет: от завтрашнего дня будешь зависеть меньше,",
+          "pause": 0.25
+        },
+        {
+          "text": "если наложишь руку на сегодняшний.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "restrained-joy",
+        "ru": "ободрение, сдержанная радость"
+      },
+      "direction": "Светлее, теплее. Он рад, что Луцилий уже на верном пути. «Держи в руках каждый час» — с маленьким жестом сжатой ладони.",
+      "v3Tags": "[encouraging]",
+      "gesture": "grasp",
+      "look": "player",
+      "postPause": 1.8
+    },
+    {
+      "id": "L09",
+      "kind": "letter",
+      "block": "b2",
+      "routeAnchor": "cypress-alley",
+      "latin": "Dum differtur vita transcurrit.",
+      "cues": [
+        {
+          "text": "Пока жизнь откладывают — она пробегает мимо.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "simple-truth",
+        "ru": "простая истина, тихо"
+      },
+      "direction": "Очень просто и тихо, почти себе под нос. После фразы — долгая тишина.",
+      "v3Tags": "[quietly]",
+      "gesture": "none",
+      "look": "sea",
+      "postPause": 3.5
+    },
+    {
+      "id": "L10",
+      "kind": "letter",
+      "block": "b3",
+      "routeAnchor": "olive-grove",
+      "latin": "Omnia, Lucili, aliena sunt, tempus tantum nostrum est;",
+      "cues": [
+        {
+          "text": "Всё, Луцилий, не наше; наше — только время.",
+          "tts": "Всё, Луци́лий, не наше; наше — только время.",
+          "pause": 0.4
+        }
+      ],
+      "emotion": {
+        "key": "sincere",
+        "ru": "искренность"
+      },
+      "direction": "Центральная мысль письма. Без нажима, с паузой перед «только время».",
+      "v3Tags": "[sincere]",
+      "gesture": "chest",
+      "look": "player",
+      "postPause": 1.3
+    },
+    {
+      "id": "L11",
+      "kind": "letter",
+      "block": "b3",
+      "routeAnchor": "olive-grove",
+      "latin": "in huius rei unius fugacis ac lubricae possessionem natura nos misit, ex qua expellit quicumque vult.",
+      "cues": [
+        {
+          "text": "Лишь этим одним, беглым и неуловимым, природа ввела нас во владение —",
+          "pause": 0.3
+        },
+        {
+          "text": "а выставить нас из него может всякий, кто захочет.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "reflective",
+        "ru": "размышление"
+      },
+      "direction": "«Беглым и неуловимым» — будто ловит что-то взглядом в листве. Вторая половина — с лёгкой горечью.",
+      "v3Tags": "[thoughtful]",
+      "gesture": "open-hand",
+      "look": "trees",
+      "postPause": 1.4
+    },
+    {
+      "id": "L12",
+      "kind": "letter",
+      "block": "b3",
+      "routeAnchor": "olive-grove",
+      "latin": "Et tanta stultitia mortalium est ut quae minima et vilissima sunt, certe reparabilia, imputari sibi cum impetravere patiantur, nemo se iudicet quicquam debere qui tempus accepit, cum interim hoc unum est quod ne gratus quidem potest reddere.",
+      "cues": [
+        {
+          "text": "И так велика глупость смертных:",
+          "pause": 0.4,
+          "tts": "И так велика́ глупость смертных:"
+        },
+        {
+          "text": "самые мелкие и дешёвые вещи, которые уж точно можно восполнить,",
+          "pause": 0.2
+        },
+        {
+          "text": "они, выпросив, позволяют записать себе в долг, —",
+          "pause": 0.35
+        },
+        {
+          "text": "но никто, получив чужое время, не думает, что хоть что-то за него должен.",
+          "pause": 0.6,
+          "tts": "но никто, получив чужое время, не думает, что хоть что́-то за него должен."
+        },
+        {
+          "text": "А ведь это единственное, чего не может вернуть даже благодарный.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "irony-to-sincerity",
+        "ru": "мягкая ирония, переходящая в искренность"
+      },
+      "direction": "Начало — с иронией над людской бухгалтерией. Последнее предложение — медленно и тепло, без иронии.",
+      "v3Tags": "[wry]",
+      "gesture": "shrug",
+      "look": "player",
+      "postPause": 2.4
+    },
+    {
+      "id": "L13",
+      "kind": "letter",
+      "block": "b4",
+      "routeAnchor": "pergola",
+      "latin": "Interrogabis fortasse quid ego faciam qui tibi ista praecipio.",
+      "cues": [
+        {
+          "text": "Ты, пожалуй, спросишь, как поступаю я сам —",
+          "pause": 0.3
+        },
+        {
+          "text": "я, раздающий тебе такие наставления.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "self-irony",
+        "ru": "самоирония, улыбка"
+      },
+      "direction": "С улыбкой над собой, как будто предугадал вопрос собеседника.",
+      "v3Tags": "[amused]",
+      "gesture": "chest",
+      "look": "player",
+      "postPause": 1.0
+    },
+    {
+      "id": "L14",
+      "kind": "letter",
+      "block": "b4",
+      "routeAnchor": "pergola",
+      "latin": "Fatebor ingenue: quod apud luxuriosum sed diligentem evenit, ratio mihi constat impensae.",
+      "cues": [
+        {
+          "text": "Признаюсь откровенно:",
+          "tts": "Призна́юсь откровенно:",
+          "pause": 0.45
+        },
+        {
+          "text": "как у того, кто живёт на широкую ногу, но знает счёт деньгам, —",
+          "pause": 0.3
+        },
+        {
+          "text": "каждый мой расход у меня на счету.",
+          "pause": 0.3,
+          "tts": "каждый мой расход у меня на счету́."
+        }
+      ],
+      "emotion": {
+        "key": "sincere",
+        "ru": "искренность"
+      },
+      "direction": "Честно и чуть смущённо. «Живёт на широкую ногу» — с иронией к собственному богатству.",
+      "v3Tags": "[sincere]",
+      "gesture": "open-hand",
+      "look": "path",
+      "postPause": 1.2
+    },
+    {
+      "id": "L15",
+      "kind": "letter",
+      "block": "b4",
+      "routeAnchor": "pergola",
+      "latin": "Non possum dicere nihil perdere, sed quid perdam et quare et quemadmodum dicam; causas paupertatis meae reddam.",
+      "cues": [
+        {
+          "text": "Не скажу, что ничего не теряю.",
+          "pause": 0.55
+        },
+        {
+          "text": "Но что теряю, почему и каким образом — скажу;",
+          "tts": "Но что теряю, почему и каким о́бразом — скажу;",
+          "pause": 0.3
+        },
+        {
+          "text": "я могу дать отчёт в причинах своей бедности.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "honest-admission",
+        "ru": "честное признание"
+      },
+      "direction": "Медленнее. Человек, который действительно смотрит на свои слабости, а не позирует.",
+      "v3Tags": "[softly]",
+      "gesture": "count",
+      "look": "player",
+      "postPause": 1.3
+    },
+    {
+      "id": "L16",
+      "kind": "letter",
+      "block": "b4",
+      "routeAnchor": "pergola",
+      "latin": "Sed evenit mihi quod plerisque non suo vitio ad inopiam redactis: omnes ignoscunt, nemo succurrit.",
+      "cues": [
+        {
+          "text": "Но со мной выходит то же, что почти со всеми, кто обеднел не по своей вине:",
+          "pause": 0.5
+        },
+        {
+          "text": "все прощают, никто не выручает.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "wry-sigh",
+        "ru": "лёгкий вздох, ироничная улыбка"
+      },
+      "direction": "Последняя фраза — с добродушной усмешкой и лёгким вздохом.",
+      "v3Tags": "[sighs]",
+      "gesture": "shrug",
+      "look": "player",
+      "postPause": 2.4
+    },
+    {
+      "id": "L17",
+      "kind": "letter",
+      "block": "b5",
+      "routeAnchor": "terrace",
+      "latin": "Quid ergo est? non puto pauperem cui quantulumcumque superest sat est;",
+      "cues": [
+        {
+          "text": "Что же из этого следует?",
+          "pause": 0.6
+        },
+        {
+          "text": "Я не считаю бедным того, кому довольно остатка, как бы мал он ни был.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "reflective",
+        "ru": "размышление, спокойствие"
+      },
+      "direction": "Смотрит на море. Неторопливо, почти утешающе.",
+      "v3Tags": "[thoughtful]",
+      "gesture": "toward-sea",
+      "look": "sea",
+      "postPause": 1.3
+    },
+    {
+      "id": "L18",
+      "kind": "letter",
+      "block": "b5",
+      "routeAnchor": "terrace",
+      "latin": "tu tamen malo serves tua, et bono tempore incipies.",
+      "cues": [
+        {
+          "text": "Но я бы всё же хотел, чтобы ты берёг своё.",
+          "pause": 0.45
+        },
+        {
+          "text": "И начнёшь ты в добрый час.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "gentle-exhortation",
+        "ru": "доброжелательное наставление"
+      },
+      "direction": "Повернувшись к собеседнику, тепло и прямо.",
+      "v3Tags": "[warmly]",
+      "gesture": "open-hand",
+      "look": "player",
+      "postPause": 1.2
+    },
+    {
+      "id": "L19",
+      "kind": "letter",
+      "block": "b5",
+      "routeAnchor": "terrace",
+      "latin": "Nam ut visum est maioribus nostris, 'sera parsimonia in fundo est'; non enim tantum minimum in imo sed pessimum remanet.",
+      "cues": [
+        {
+          "text": "Ведь, как рассудили наши предки, «поздно беречь, когда показалось дно»:",
+          "pause": 0.45
+        },
+        {
+          "text": "на дне остаётся не только самое малое, но и самое худшее.",
+          "tts": "на дне остаётся не только самое малое, но и самое ху́дшее.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "finitude",
+        "ru": "осознание конечности, мудрая простота"
+      },
+      "direction": "Пословицу — как общеизвестную истину, с полуулыбкой. Вторая часть — тише и серьёзнее.",
+      "v3Tags": "[serious]",
+      "gesture": "toward-sea",
+      "look": "sea",
+      "postPause": 2.2
+    },
+    {
+      "id": "L20",
+      "kind": "letter",
+      "block": "b5",
+      "routeAnchor": "terrace",
+      "latin": "Vale.",
+      "cues": [
+        {
+          "text": "Будь здоров.",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "warm-closing",
+        "ru": "тепло, тихо, прощание"
+      },
+      "direction": "Очень тихо и тепло. Сворачивает свиток.",
+      "v3Tags": "[softly]",
+      "gesture": "scroll-close",
+      "look": "scroll",
+      "postPause": 0
+    },
+    {
+      "id": "A-greet-1",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "text": "А, это ты.",
+          "pause": 0.5
+        },
+        {
+          "text": "Мне сказали, что кто-то ждёт у фонтана.",
+          "pause": 0.45
+        },
+        {
+          "text": "Пришёл спросить, как жить, — и, как все, торопишься.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "amused-greeting",
+        "ru": "приветствие с мягкой иронией"
+      },
+      "direction": "Поворачивается от фонтана, разглядывает гостя. Ирония без насмешки, с улыбкой.",
+      "v3Tags": "[amused]",
+      "gesture": "welcome",
+      "look": "player",
+      "postPause": 0.9
+    },
+    {
+      "id": "A-greet-2",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "text": "Не торопись.",
+          "pause": 0.5
+        },
+        {
+          "text": "Я как раз дописал письмо Луцилию — в нём всё, что я мог бы тебе ответить.",
+          "tts": "Я как раз дописал письмо Луци́лию — в нём всё, что я мог бы тебе ответить.",
+          "pause": 0.5
+        },
+        {
+          "text": "Пойдём к морю, я прочту его вслух.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "invitation",
+        "ru": "приглашение, тепло"
+      },
+      "direction": "Показывает свиток, жестом зовёт за собой к морю.",
+      "v3Tags": "[warmly]",
+      "gesture": "scroll-show",
+      "look": "player",
+      "postPause": 1.4
+    },
+    {
+      "id": "A-letter",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "text": "Слушай так, будто оно написано и тебе.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "invitation-to-listen",
+        "ru": "тихо, доверительно"
+      },
+      "direction": "На ходу разворачивает свиток; говорит, не глядя на гостя.",
+      "v3Tags": "[softly]",
+      "gesture": "scroll-read",
+      "look": "scroll",
+      "postPause": 1.0
+    },
+    {
+      "id": "A-wait-1",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "text": "Не торопись. Я подожду.",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "patient",
+        "ru": "терпеливо, доброжелательно"
+      },
+      "direction": "Негромко, без упрёка.",
+      "v3Tags": "[gently]",
+      "gesture": "none",
+      "look": "player",
+      "postPause": 0
+    },
+    {
+      "id": "A-wait-2",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "text": "Смотри сколько хочешь. Ради этого и стоит выходить из дома.",
+          "pause": 0.2,
+          "tts": "Смотри сколько хочешь. Ради этого и сто́ит выходить из дома."
+        }
+      ],
+      "emotion": {
+        "key": "patient-amused",
+        "ru": "доброжелательная улыбка"
+      },
+      "direction": "С тёплой усмешкой.",
+      "v3Tags": "[amused]",
+      "gesture": "open-hand",
+      "look": "player",
+      "postPause": 0
+    },
+    {
+      "id": "A-resume-1",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "text": "Так вот…",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "resume",
+        "ru": "возвращение к мысли"
+      },
+      "direction": "Коротко, будто собирает мысль.",
+      "v3Tags": "[thoughtful]",
+      "gesture": "none",
+      "look": "player",
+      "postPause": 0.4
+    },
+    {
+      "id": "A-resume-2",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "text": "На чём я остановился…",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "resume",
+        "ru": "возвращение к мысли"
+      },
+      "direction": "Задумчиво, вспоминая.",
+      "v3Tags": "[thoughtful]",
+      "gesture": "none",
+      "look": "scroll",
+      "postPause": 0.5
+    },
+    {
+      "id": "A-sea",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "viewpoint",
+      "cues": [
+        {
+          "text": "Посмотри на море.",
+          "pause": 0.9
+        },
+        {
+          "text": "Каждый вечер одно и то же — и каждый вечер иначе.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "quiet-delight",
+        "ru": "сдержанная радость, созерцание"
+      },
+      "direction": "Тихо, с удовольствием. Не экскурсовод — человек, который сам любуется.",
+      "v3Tags": "[softly]",
+      "gesture": "toward-sea",
+      "look": "sea",
+      "postPause": 2.5,
+      "take": 1
+    },
+    {
+      "id": "A-table",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "pergola",
+      "cues": [
+        {
+          "text": "Здесь я обычно пишу.",
+          "pause": 0.5
+        },
+        {
+          "text": "По вечерам мысли сговорчивее.",
+          "pause": 0.3,
+          "tts": "По вечерам мысли сгово́рчивее."
+        }
+      ],
+      "emotion": {
+        "key": "dry-humor",
+        "ru": "сухой юмор"
+      },
+      "direction": "Кивает на стол со свитками, с лёгкой улыбкой.",
+      "v3Tags": "[amused]",
+      "gesture": "toward-table",
+      "look": "table",
+      "postPause": 1.6
+    },
+    {
+      "id": "A-terrace",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "text": "Вот мы и пришли.",
+          "pause": 0.6
+        },
+        {
+          "text": "Дочитаю здесь.",
+          "pause": 0.3
+        }
+      ],
+      "emotion": {
+        "key": "calm",
+        "ru": "спокойствие"
+      },
+      "direction": "Останавливается у скамьи, смотрит на закат.",
+      "v3Tags": "[calm]",
+      "gesture": "none",
+      "look": "sea",
+      "postPause": 1.6
+    },
+    {
+      "id": "A-fruit",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "text": "Спелый плод.",
+          "pause": 0.6
+        },
+        {
+          "text": "Не откладывай его на завтра —",
+          "pause": 0.25
+        },
+        {
+          "text": "завтра он будет уже другим.",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "gentle-irony",
+        "ru": "мягкая ирония, улыбка"
+      },
+      "direction": "Замечает плод в руке собеседника, улыбается. Лёгкая шутка, перекликающаяся с письмом, без назидания.",
+      "v3Tags": "[amused]",
+      "gesture": "open-hand",
+      "look": "player",
+      "postPause": 0.6
+    },
+    {
+      "id": "A-farewell",
+      "kind": "authored",
+      "block": null,
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "text": "Вечер ещё не кончился.",
+          "pause": 0.7
+        },
+        {
+          "text": "И он — твой.",
+          "pause": 0.2
+        }
+      ],
+      "emotion": {
+        "key": "warm-closing",
+        "ru": "тепло, прощание"
+      },
+      "direction": "Очень спокойно, глядя на море, затем на собеседника.",
+      "v3Tags": "[warmly]",
+      "gesture": "open-hand",
+      "look": "player",
+      "postPause": 0
+    }
+  ]
+}

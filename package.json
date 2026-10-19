@@ -1,0 +1,50 @@
+{
+  "name": "seneca-art-of-time",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:vr": "vite --host --mode vr",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "voice:placeholder": "node scripts/voice/generate-placeholder.mjs",
+    "voice:elevenlabs": "node scripts/voice/generate-elevenlabs.mjs",
+    "voice:verify": "node scripts/voice/verify.mjs",
+    "assets:textures": "node scripts/assets/fetch-textures.mjs",
+    "meshy:balance": "node scripts/meshy/meshy.mjs balance",
+    "meshy:generate": "node scripts/meshy/meshy.mjs generate",
+    "meshy:status": "node scripts/meshy/meshy.mjs status",
+    "assets:optimize": "node scripts/assets/optimize-glb.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/spectral": "^5.3.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.5.1",
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-basic-ssl": "^2.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "iwer": "^2.6.0",
+    "oxlint": "^1.88.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}

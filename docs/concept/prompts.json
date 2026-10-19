@@ -1,0 +1,53 @@
+{
+  "preamble": "Cinematic environment concept art for a calm, contemplative first-person exploration game. Setting: a Roman seaside villa on the Bay of Naples (Campania), mid-1st century AD, during golden hour just before sunset. Style: painterly stylized realism, warm golden light, long soft shadows, gentle atmospheric haze, rich but harmonious colours (ochre, Pompeian red, cream marble, olive and cypress greens, deep blue sea). Historically plausible Roman architecture, gardens and everyday objects; no modern elements, no fantasy, no text or lettering. Wide cinematic composition, eye-level view, highly detailed, inviting and peaceful.",
+  "items": {
+    "c01-terrace-view": {
+      "title": "Вид со скамьи на террасе",
+      "prompt": "View from a marble bench on a cliff-top terrace looking across the bay at sunset. Across the water rises a broad green mountain with vineyards on its slopes (Vesuvius before the eruption, no crater cone). On the far shore a small Roman harbour town with porticoes, red-tiled roofs, warm oil-lamp lights starting to glow and thin smoke from hearths; a stone lighthouse tower with a fire burning on a rocky headland. On the golden water: two small Roman fishing boats with lateen sails heading home, a merchant ship with a square red sail, a trail of seagulls. The sun is sinking into the sea next to the silhouette of a rocky island. In the foreground of the terrace: a bronze Roman sundial on a carved pedestal casting a long shadow, potted citron trees in terracotta, a low parapet with red painted panels.",
+      "taskId": "01a154a4-0e19-72d2-8ac2-8ae07d7bee7c",
+      "model": "nano-banana-pro",
+      "aspect": "16:9",
+      "generatedAt": "2026-10-19T14:50:31.348Z"
+    },
+    "c02-peristyle": {
+      "title": "Перистиль, наполненный жизнью",
+      "prompt": "The inner peristyle garden of the villa, full of quiet life. Fluted columns stuccoed red below and white above, walls with Pompeian red frescoes and a painted garden fresco with birds. Centre: a marble fountain with a basin and a bowl spilling water. Low clipped box hedges around beds of roses, lilies, irises and acanthus, small citrus trees with ripe fruit. Marble garden sculpture: a sleeping Eros, a small fawn statue, carved marble discs (oscilla) hanging between the columns, a bronze bird bath with white doves drinking, a cat asleep on a stone bench, potted myrtles, a wicker basket of citrons on the stylobate. An elderly bearded philosopher in a simple cream tunic and brown mantle stands by the fountain reading a scroll.",
+      "taskId": "01a154a4-bd3e-7087-aec1-6a833f68374c",
+      "model": "nano-banana-pro",
+      "aspect": "16:9",
+      "generatedAt": "2026-10-19T14:51:16.160Z"
+    },
+    "c03-garden-walk": {
+      "title": "Прогулка: аллея, роща, мелочи жизни",
+      "prompt": "A gravel path descending gently from the villa toward the sea through an alley of tall Italian cypresses, then an old olive grove. Along the path: marble herm pillars with bearded busts, a small roadside shrine (aedicula) with a burning oil lamp, garlands and flowers, terracotta amphorae leaning against a wall, a wooden bench, a vine-covered pergola with grapes, woven wicker beehives on a stone shelf, a round dovecote tower with doves, a few goats grazing beyond a dry-stone wall, butterflies, wild fennel and poppies at the path edge, dust glowing in sunbeams between the trees. The sea glimmers far below.",
+      "taskId": "01a154a5-3cbd-751b-b126-1f1acb2007ca",
+      "model": "nano-banana-pro",
+      "aspect": "16:9",
+      "generatedAt": "2026-10-19T14:51:48.820Z"
+    },
+    "c04-pergola-study": {
+      "title": "Кабинет под перголой",
+      "prompt": "An outdoor writing corner under a vine-covered wooden pergola on stone pillars in a Roman garden, overlooking the sea. A simple wooden table with papyrus scrolls (some unrolled, held by small stones), wax tablets, a bronze inkwell with a reed pen, a bronze oil lamp, a wicker chair with a cushion. Beside it: a marble bust of a philosopher on a column, a small bronze water clock (clepsydra) dripping into a basin, a basket of citrons, a clay jug and a cup. Grape leaves cast dappled light. Between the pillars, a view of the bay and distant sails.",
+      "taskId": "01a154a5-bc80-7125-8d35-188030660191",
+      "model": "nano-banana-pro",
+      "aspect": "16:9",
+      "generatedAt": "2026-10-19T14:52:21.482Z"
+    },
+    "c05-terrace-layout": {
+      "title": "Терраса: компоновка",
+      "prompt": "High three-quarter view of the villa's sea terrace at sunset, showing the layout: a stone-paved terrace on a cliff above the bay, a semicircular marble exedra bench facing the sunset, a bronze sundial on a pedestal at the centre, a vine pergola casting shade on one side, marble herms and potted citron trees along the low red-panelled parapet, a narrow stair cut into the rock leading down to a tiny cove with a moored fishing boat and nets. The bay with a harbour town, a lighthouse and a green mountain across the water, boats on the sea.",
+      "taskId": "01a154a6-3bfa-779a-8834-b851b3552d64",
+      "model": "nano-banana-pro",
+      "aspect": "16:9",
+      "generatedAt": "2026-10-19T14:52:53.971Z"
+    },
+    "c06-life-details": {
+      "title": "Жизнь мира: мелкие детали",
+      "prompt": "A collection of small living details of a Roman villa garden at golden hour, arranged as a single atmospheric scene: swallows swooping low over a lawn, white doves on a red-tiled roof edge, a tabby cat stretching on warm stone steps, butterflies over lavender and rosemary, bees around wicker hives, a lizard on a sunny wall, a goat peering over a dry-stone wall, a small fishing boat drifting in the bay below, smoke rising from a distant farmhouse, lanterns being lit on a far-off villa portico.",
+      "taskId": "01a154a6-badb-73af-a875-a68a61787dee",
+      "model": "nano-banana-pro",
+      "aspect": "16:9",
+      "generatedAt": "2026-10-19T14:53:38.582Z"
+    }
+  }
+}

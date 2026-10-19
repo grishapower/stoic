@@ -1,0 +1,36 @@
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #14100c;
+  color: #f1e8d8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-root {
+  position: fixed;
+  inset: 0;
+}
+
+.scene-canvas {
+  position: absolute !important;
+  inset: 0;
+  display: block;
+}
+
+/* Gentle cinematic vignette over the 3D view (below the UI). */
+.app-root::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 50% 46%, transparent 58%, rgba(14, 9, 5, 0.32) 100%);
+}
+
+/* Dev-only: hide the UI for clean screenshots (window.__dbg.hideUi()). */
+body.dbg-hide-ui .ui-root {
+  display: none;
+}

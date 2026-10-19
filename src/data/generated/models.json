@@ -1,0 +1,1918 @@
+{
+  "aedicula": {
+    "file": "assets/models/aedicula.glb",
+    "size": [
+      0.44,
+      0.8,
+      0.416
+    ],
+    "triangles": 7086,
+    "forward": "+Z",
+    "forwardNote": "Niche opening faces +Z.",
+    "notes": "Upper shrine only (0.44 x 0.80 x 0.42 m): arched empty niche (~0.2 m wide, ~0.4 m tall) opening +Z with its floor at y=0.081 m, two columns, tiled pediment roof. Meshy put the niche at ground level twice, so place it on a plain plastered pillar ~0.92 m tall, >=0.48 x 0.45 m: niche floor ~1.0 m, total ~1.72 m.",
+    "pivot": "bottom-center",
+    "nicheFloorY": 0.081,
+    "recommendedPillarHeight": 0.92,
+    "animations": [],
+    "source": "meshy",
+    "asset": "aedicula",
+    "taskIds": {
+      "preview": "01a154c1-b083-71c0-811e-2f0f47112fda",
+      "refine": "01a154c4-2cab-74da-99cd-0fd798610053"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 561524,
+    "license": "Meshy-generated (account owner)"
+  },
+  "amphora": {
+    "file": "assets/models/amphora.glb",
+    "size": [
+      0.426,
+      1.1,
+      0.427
+    ],
+    "triangles": 5000,
+    "forward": "+Z",
+    "forwardNote": "Radially symmetric; handles along X.",
+    "notes": "Upright transport amphora 1.1 m, pointed toe at y=0 (cannot stand: lean it, bury the toe or use a ring stand). Ovoid body, closer to Dressel 1 than a sharp-shouldered Dressel 2-4.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "amphora",
+    "taskIds": {
+      "preview": "01a154b7-dc3e-7524-8ef6-e4dde06a28d3",
+      "refine": "01a154c1-3d5a-7644-8df4-92c096b5622b"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 252596,
+    "license": "Meshy-generated (account owner)"
+  },
+  "amphora-planter": {
+    "file": "assets/models/amphora-planter.glb",
+    "size": [
+      0.95,
+      0.85,
+      0.95
+    ],
+    "triangles": 8215,
+    "forward": "+Z",
+    "notes": "Open-topped terracotta planter with recessed soil.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "amphora-planter",
+    "taskIds": {
+      "preview": "01a1543c-d60f-7126-b6b8-b9de218445a7",
+      "refine": "01a1543e-9721-71cb-8fcd-bac74e04af3c"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 329968,
+    "license": "Meshy-generated (account owner)"
+  },
+  "amphora-planter-tall": {
+    "file": "assets/models/amphora-planter-tall.glb",
+    "size": [
+      0.611,
+      1,
+      0.611
+    ],
+    "triangles": 8092,
+    "forward": "+Z",
+    "notes": "Open-topped terracotta planter with recessed soil.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "amphora-planter",
+    "taskIds": {
+      "preview": "01a1543d-d92b-7295-8ce7-f4f25d4e720d",
+      "refine": "01a15440-dbb1-746e-a0c9-81874342644c"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 369020,
+    "license": "Meshy-generated (account owner)"
+  },
+  "beehives-roman": {
+    "file": "assets/models/beehives-roman.glb",
+    "size": [
+      1.6,
+      0.538,
+      0.41
+    ],
+    "triangles": 8287,
+    "forward": "+Z",
+    "forwardNote": "Hive entrances face +Z; shelf long along X.",
+    "notes": "Four horizontal clay-plastered wicker hives on a low stone shelf with a top slab, 1.6 x 0.54 x 0.41 m; round entrance discs with holes face +Z.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "beehives-roman",
+    "taskIds": {
+      "preview": "01a154b7-b4cc-72e5-8699-81af03727c1e",
+      "refine": "01a154c1-1492-70e1-8d5c-6235529beab2"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 530868,
+    "license": "Meshy-generated (account owner)"
+  },
+  "cat-sleeping": {
+    "file": "assets/models/cat-sleeping.glb",
+    "size": [
+      0.45,
+      0.232,
+      0.411
+    ],
+    "triangles": 4999,
+    "forward": "+Z",
+    "forwardNote": "Head toward +Z.",
+    "notes": "Tabby curled asleep, head toward +Z; 0.45 x 0.41 m, 0.23 m tall.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "cat-sleeping",
+    "taskIds": {
+      "preview": "01a154b0-8932-7656-bb24-2857202012cc",
+      "refine": "01a154b7-060c-7273-8e3b-aa193dfc739a"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 198572,
+    "license": "Meshy-generated (account owner)"
+  },
+  "citron-basket": {
+    "file": "assets/models/citron-basket.glb",
+    "size": [
+      0.45,
+      0.333,
+      0.413
+    ],
+    "triangles": 3947,
+    "forward": "+Z",
+    "forwardNote": "Roughly radially symmetric.",
+    "notes": "Wicker basket heaped with yellow citrons; fruit is faceted low-poly (5k budget); leaves are single-sided (double-sided material).",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "citron-basket",
+    "taskIds": {
+      "preview": "01a154b0-9a49-7249-8728-72c9fad3c0df",
+      "refine": "01a154b7-190c-723b-854d-d40a071d2727"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 235208,
+    "license": "Meshy-generated (account owner)"
+  },
+  "citron-fruit": {
+    "file": "assets/models/citron-fruit.glb",
+    "size": [
+      0.09,
+      0.162,
+      0.082
+    ],
+    "triangles": 2999,
+    "forward": "+Z",
+    "forwardNote": "Stem points +Y (long axis vertical).",
+    "notes": "Origin = centre of the fruit body (fitted ellipsoid; stem/leaf excluded). Body 12 cm long (Y) x 8.2 cm wide; stem +Y, tip at y=+9.7 cm; bottom nipple at y=-6.5 cm; one leaf lying against the +X side.",
+    "pivot": "center",
+    "up": "+Y stem (long axis)",
+    "bodySize": [
+      0.0826,
+      0.1192,
+      0.0807
+    ],
+    "animations": [],
+    "source": "meshy",
+    "asset": "citron-fruit",
+    "taskIds": {
+      "preview": "01a15486-a634-736a-9664-db63e65c8682",
+      "refine": "01a15489-2b25-7329-86ce-b9c6c24c2315"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 114272,
+    "license": "Meshy-generated (account owner)"
+  },
+  "clepsydra": {
+    "file": "assets/models/clepsydra.glb",
+    "size": [
+      0.483,
+      0.299,
+      0.55
+    ],
+    "triangles": 4999,
+    "forward": "+Z",
+    "forwardNote": "Outflow spout toward +Z (a second rosette spout at -Z).",
+    "notes": "Bronze outflow basin on three lion-paw feet (no separate stand), rim Ø0.49 m at y=0.30 m; outflow spout tip ~(0, 0.19, 0.265) facing +Z (drip origin); level rings engraved inside; a second rosette spout at -Z. No dial.",
+    "pivot": "bottom-center",
+    "spoutTip": [
+      0,
+      0.19,
+      0.265
+    ],
+    "rimY": 0.299,
+    "animations": [],
+    "source": "meshy",
+    "asset": "clepsydra",
+    "taskIds": {
+      "preview": "01a154b8-030b-70b9-bb18-8572870ba71a",
+      "refine": "01a154c1-62e4-709d-8560-d049fbcd7c82"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 231816,
+    "license": "Meshy-generated (account owner)"
+  },
+  "dovecote": {
+    "file": "assets/models/dovecote.glb",
+    "size": [
+      2.318,
+      4.5,
+      2.317
+    ],
+    "triangles": 10092,
+    "forward": "+Z",
+    "forwardNote": "Door toward +Z.",
+    "notes": "Round plastered stone tower Ø2.3 x 4.5 m, grid of square nesting holes in the upper half, conical terracotta-tile roof with finial, small door toward +Z.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "dovecote",
+    "taskIds": {
+      "preview": "01a154b7-a276-72fe-80e2-78049fed8998",
+      "refine": "01a154c1-0165-72a8-84cd-f09958262674"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 740472,
+    "license": "Meshy-generated (account owner)"
+  },
+  "eros-sleeping": {
+    "file": "assets/models/eros-sleeping.glb",
+    "size": [
+      0.9,
+      0.554,
+      0.494
+    ],
+    "triangles": 10397,
+    "forward": "+Z",
+    "forwardNote": "Display side (face, wings) toward +Z; figure lies along X.",
+    "notes": "Sleeping winged Eros (one infant) on a rock, single marble block, flat underside; display side (face, wing) toward +Z, figure lies along X.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "eros-sleeping",
+    "taskIds": {
+      "preview": "01a154b7-695d-735d-9a68-904cb3becc1e",
+      "refine": "01a154c1-9db9-749a-aa32-5ac83205e5ba"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 432996,
+    "license": "Meshy-generated (account owner)"
+  },
+  "exedra-bench": {
+    "file": "assets/models/exedra-bench.glb",
+    "size": [
+      5.298,
+      0.841,
+      2.649
+    ],
+    "triangles": 14999,
+    "forward": "+Z",
+    "forwardNote": "Semicircle open toward +Z: sitters on the seat face the arc centre / +Z. Back wall on the -Z side.",
+    "notes": "Semicircular schola built locally from the round-1 stone-bench parts (Meshy text-to-3D failed: half-moon table / straight bench). Exact 180-degree arc, opening toward +Z; arc centre at (0, 0, +1.325) in this file. Seat front (inner) radius 2.10 m, seat top y=0.46 m, seat depth 0.43 m; backrest/back wall 0.12 m thick, top y=0.84 m, outer radius 2.65 m; 5 lion-head trapezophoros supports; slab block joints every ~0.9 m.",
+    "pivot": "bottom-center",
+    "arcCenter": [
+      0,
+      0,
+      1.325
+    ],
+    "arcDegrees": 180,
+    "innerRadius": 2.1,
+    "outerRadius": 2.65,
+    "seatHeight": 0.46,
+    "backTop": 0.84,
+    "animations": [],
+    "source": "meshy",
+    "asset": "exedra-bench",
+    "taskIds": {
+      "preview": "01a15434-ba49-7415-8e74-02e159ccba7c",
+      "refine": "01a15436-1fb8-75bb-aa92-5c58e6a58f05",
+      "kitbash": "exedra-bench"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 446068,
+    "license": "Meshy-generated (account owner)"
+  },
+  "fishing-boat": {
+    "file": "assets/models/fishing-boat.glb",
+    "size": [
+      2.755,
+      3.234,
+      6.001
+    ],
+    "triangles": 13439,
+    "forward": "+Z",
+    "forwardNote": "Bow (mast end) toward +Z, stern (tall sternpost, net and basket) toward -Z.",
+    "notes": "Origin = waterline centre: waterline y=0, keel y=-0.38 m, gunwale ~+0.57 m amidships, masthead +2.85 m. Bow (mast end) +Z. Square sail on a yard (Meshy would not make a lateen in two tries); two oars hang outboard amidships; net and basket at the stern. Double-sided material (sail). Width 2.75 m includes the hanging oars.",
+    "pivot": "waterline-center",
+    "waterlineY": 0,
+    "keelY": -0.38,
+    "animations": [],
+    "source": "meshy",
+    "asset": "fishing-boat",
+    "taskIds": {
+      "preview": "01a154b0-59f9-7270-98f7-79dbfd4790c6",
+      "refine": "01a154c0-c6ea-7541-b68c-5a7069d3b394"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 798020,
+    "license": "Meshy-generated (account owner)"
+  },
+  "fountain": {
+    "file": "assets/models/fountain.glb",
+    "size": [
+      2.6,
+      1.862,
+      2.6
+    ],
+    "triangles": 19566,
+    "forward": "+Z",
+    "forwardNote": "Radially symmetric; forward irrelevant.",
+    "notes": "Basin floor (solid, recessed) at y~0.13 m, rim top y=0.655 m: put the water plane at y~0.58-0.60 m, radius ~1.15 m. Bronze pine-cone finial on top.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "fountain",
+    "taskIds": {
+      "preview": "01a1543c-6e4d-7022-a7b8-5ebcabb43a9a",
+      "refine": "01a1543d-8d2c-701f-8608-ee7bf32c7a3d"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 555920,
+    "license": "Meshy-generated (account owner)"
+  },
+  "goat": {
+    "file": "assets/models/goat.glb",
+    "size": [
+      0.322,
+      0.783,
+      1
+    ],
+    "triangles": 8353,
+    "forward": "+Z",
+    "forwardNote": "Head toward +Z.",
+    "notes": "Standing goat, head lowered (grazing), head toward +Z; 1.0 m nose to tail, 0.78 m to the horn tips. Brown/white coat; tail longer and bushier than a real goat.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "goat",
+    "taskIds": {
+      "preview": "01a154b7-c83b-72c3-8c72-21cf4ca27089",
+      "refine": "01a154c1-282f-75fc-b33e-85f96eb11883"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 658408,
+    "license": "Meshy-generated (account owner)"
+  },
+  "hand-fp": {
+    "file": "assets/models/hand-fp.glb",
+    "size": [
+      0.123,
+      0.081,
+      0.21
+    ],
+    "triangles": 8000,
+    "forward": "-Z fingers",
+    "up": "+Y palm normal",
+    "notes": "Static right hand, palm up, fingers curled (procedural bend). Origin = palm surface under the resting fruit. A sphere of fruitRadius rests with its centre at fruitCenter (held by palm pads + finger bases, ~4 mm air under it). Thumb at +X. Wrist cut is a closed cap at the +Z end (~5.5 cm stub past the wrist crease): keep it off-screen. Hand length (wrist crease to middle fingertip, before curl) 19 cm.",
+    "pivot": "grip-point",
+    "gripPoint": [
+      0,
+      0,
+      0
+    ],
+    "fruitRadius": 0.035,
+    "fruitRadiusRange": [
+      0.03,
+      0.0375
+    ],
+    "fruitCenter": [
+      0,
+      0.0394,
+      0
+    ],
+    "fruitSeats": {
+      "mandarin-fruit": {
+        "position": [
+          0.002,
+          0.031,
+          -0.003
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "citron-fruit": {
+        "position": [
+          -0.014,
+          0.0553,
+          0.019
+        ],
+        "rotationDeg": [
+          90,
+          0,
+          0
+        ],
+        "note": "lying along the fingers, stem toward the wrist"
+      }
+    },
+    "handedness": "right",
+    "thumb": "+X",
+    "animations": [],
+    "source": "meshy",
+    "asset": "hand-fp",
+    "taskIds": {
+      "preview": "01a15486-bdf1-723d-b52e-2795fce76d5f",
+      "refine": "01a15489-3f89-7507-9f17-79e44fd3a473",
+      "retexture": "01a1548d-cc2c-73d1-949b-1dbaf4c0afad"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 336896,
+    "license": "Meshy-generated (account owner)"
+  },
+  "herm-bust": {
+    "file": "assets/models/herm-bust.glb",
+    "size": [
+      0.277,
+      0.7,
+      0.309
+    ],
+    "triangles": 15565,
+    "forward": "+Z",
+    "forwardNote": "Face looks toward +Z.",
+    "notes": "Life-size bearded head on a short block (0.7 m total). Place on a ~1.0 m square pillar to form a herm; face toward +Z.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "herm-bust",
+    "taskIds": {
+      "preview": "01a1543f-d51d-7762-9e3c-8915dba532e4",
+      "refine": "01a15441-5d48-73e6-9e8c-0d91f98fff3e"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 648300,
+    "license": "Meshy-generated (account owner)"
+  },
+  "italian-cypress": {
+    "file": "assets/models/italian-cypress.glb",
+    "size": [
+      1.317,
+      9.998,
+      1.314
+    ],
+    "triangles": 2241,
+    "forward": "+Z",
+    "forwardNote": "Radially symmetric.",
+    "notes": "One 'Stricta' column, ~1.3 m wide x 10 m; opaque faceted foliage; base colour darkened (x0.72) to read as very dark green.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "italian-cypress",
+    "taskIds": {
+      "preview": "01a15488-9c30-74b4-a776-525552b65bd1",
+      "refine": "01a1548d-71ad-770f-be32-bc55356ff176"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 323260,
+    "license": "Meshy-generated (account owner)"
+  },
+  "jug-cup": {
+    "file": "assets/models/jug-cup.glb",
+    "size": [
+      0.485,
+      0.3,
+      0.24
+    ],
+    "triangles": 4179,
+    "forward": "+Z",
+    "forwardNote": "Jug at +X (handle toward +X), cup at -X.",
+    "notes": "One mesh: terracotta jug 0.30 m at +X (handle toward +X) and a small footed cup ~0.1 m at -X.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "jug-cup",
+    "taskIds": {
+      "preview": "01a154b8-3d9e-741a-86e0-24fc9e26356b",
+      "refine": "01a154c1-8a94-7481-8a97-f38b40068107"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 146068,
+    "license": "Meshy-generated (account owner)"
+  },
+  "mandarin-fruit": {
+    "file": "assets/models/mandarin-fruit.glb",
+    "size": [
+      0.069,
+      0.069,
+      0.064
+    ],
+    "triangles": 3000,
+    "forward": "+Z",
+    "forwardNote": "Stem points +Y; roughly radially symmetric.",
+    "notes": "Origin = centre of the fruit body (fitted ellipsoid; stem/leaves excluded). Body 6.5 cm wide x 5.3 cm tall (oblate); stem +Y, tip at y=+4.5 cm; two leaves along +-X.",
+    "pivot": "center",
+    "up": "+Y stem",
+    "bodySize": [
+      0.0661,
+      0.0533,
+      0.064
+    ],
+    "animations": [],
+    "source": "meshy",
+    "asset": "mandarin-fruit",
+    "taskIds": {
+      "preview": "01a15484-3ff3-7709-8ab5-e7e49f6b10b2",
+      "refine": "01a15486-914a-7515-ab3a-affd45f4f19a"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 112272,
+    "license": "Meshy-generated (account owner)"
+  },
+  "merchant-ship": {
+    "file": "assets/models/merchant-ship.glb",
+    "size": [
+      8.111,
+      12.953,
+      17.995
+    ],
+    "triangles": 13752,
+    "forward": "+Z",
+    "forwardNote": "Bow (artemon) toward +Z, swan-neck stern toward -Z.",
+    "notes": "Corbita. Origin = waterline centre: waterline y=0, keel y=-1.0 m, sheer ~+1.35 m amidships, masthead +11.95 m. Bow +Z with a forward-raked artemon and small foresail (kitbash: Meshy aft mizzen moved to the bow), one big square red-ochre mainsail, swan-neck stern -Z, no oars. Width 8.1 m is the main yard (hull beam ~5.5 m). Double-sided material (sails).",
+    "pivot": "waterline-center",
+    "waterlineY": 0,
+    "keelY": -1,
+    "animations": [],
+    "source": "meshy",
+    "asset": "merchant-ship",
+    "taskIds": {
+      "preview": "01a154b0-69ad-71bf-b220-c984456b7981",
+      "refine": "01a154c0-da26-76ef-9541-45edad2eb901",
+      "kitbash": "merchant-ship"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 839064,
+    "license": "Meshy-generated (account owner)"
+  },
+  "oil-lamp": {
+    "file": "assets/models/oil-lamp.glb",
+    "size": [
+      0.089,
+      0.06,
+      0.18
+    ],
+    "triangles": 4728,
+    "forward": "+Z",
+    "forwardNote": "Nozzle toward +Z, ring handle toward -Z.",
+    "notes": "PROCEDURAL, not Meshy (both Meshy attempts were teapot/tureen shapes). Roman bronze lucerna 0.18 m long, nozzle +Z. Wick hole centre (0, 0.031, 0.075): put the flame at ~(0, 0.036, 0.075). Filling hole on the discus at (0, 0.017, -0.013); ring handle + leaf thumb-rest at -Z.",
+    "pivot": "bottom-center",
+    "flamePoint": [
+      0,
+      0.036,
+      0.075
+    ],
+    "wickHole": [
+      0,
+      0.031,
+      0.075
+    ],
+    "animations": [],
+    "source": "procedural",
+    "asset": "oil-lamp",
+    "taskIds": {
+      "procedural": "scripts/meshy/procedural.mjs oil-lamp",
+      "rejectedMeshyPreviews": [
+        "01a154b8-1686-7783-9776-42dee671f0a8",
+        "01a154c1-c3dd-7287-9fe0-879268d52342"
+      ]
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          256,
+          256
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          256,
+          256
+        ]
+      }
+    ],
+    "bytes": 39048,
+    "license": "Project-made (procedural, scripts/meshy/procedural.mjs)"
+  },
+  "olive-tree": {
+    "file": "assets/models/olive-tree.glb",
+    "size": [
+      4.184,
+      5,
+      4.348
+    ],
+    "triangles": 24173,
+    "forward": "+Z",
+    "forwardNote": "Roughly radially symmetric.",
+    "notes": "Opaque faceted foliage (no alpha); trunk base at origin.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "olive-tree",
+    "taskIds": {
+      "preview": "01a1543e-34b9-754a-9779-af0a075f14a8",
+      "refine": "01a15442-5b15-75e1-9ba2-290f070a851b"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 1097116,
+    "license": "Meshy-generated (account owner)"
+  },
+  "olive-tree-lite": {
+    "file": "assets/models/olive-tree-lite.glb",
+    "size": [
+      4.165,
+      4.999,
+      4.231
+    ],
+    "triangles": 7458,
+    "forward": "+Z",
+    "forwardNote": "Roughly radially symmetric.",
+    "notes": "LOD/instancing version of olive-tree.glb (same 5 m size and pivot). Faceted flat normals; minor texture smearing on the trunk from vertex clustering. Use olive-tree.glb for hero trees near the path.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "olive-tree-lite",
+    "taskIds": {
+      "remesh": "01a15486-e560-7789-aec5-451d164e7721",
+      "remeshSource": "01a15442-5b15-75e1-9ba2-290f070a851b"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 593932,
+    "license": "Meshy-generated (account owner)"
+  },
+  "oscillum": {
+    "file": "assets/models/oscillum.glb",
+    "size": [
+      0.42,
+      0.434,
+      0.063
+    ],
+    "triangles": 6568,
+    "forward": "+Z",
+    "forwardNote": "Disc in the XY plane; relief masks on both faces (+Z and -Z). Ring at the top.",
+    "notes": "PIVOT EXCEPTION: origin = top of the bronze hanging ring; the disc hangs below it (disc centre ~(0, -0.224, 0)). Disc in the XY plane, Ø0.42 m, 3 cm thick, two low-relief tragic masks on BOTH faces (relief flattened from Meshy high-relief heads and mirrored to the back), 6.3 cm overall. 6.6k tris (over the 5k small budget: the fragmented atlas blocks further simplification without garbling the masks).",
+    "pivot": "hang-point (ring top)",
+    "hangPoint": [
+      0,
+      0,
+      0
+    ],
+    "discCenter": [
+      0,
+      -0.224,
+      0
+    ],
+    "animations": [],
+    "source": "meshy",
+    "asset": "oscillum",
+    "taskIds": {
+      "preview": "01a154b0-a8cb-709e-a341-f67fcca9a205",
+      "refine": "01a154c0-edec-72b2-8801-61aa712f83ac",
+      "kitbash": "oscillum"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          512,
+          512
+        ]
+      }
+    ],
+    "bytes": 283508,
+    "license": "Meshy-generated (account owner)"
+  },
+  "seneca": {
+    "file": "assets/models/seneca.glb",
+    "size": [
+      1.223,
+      1.743,
+      0.47
+    ],
+    "triangles": 36143,
+    "forward": "+Z",
+    "pivot": "bottom-center",
+    "notes": "Rigged 24-joint biped (no finger bones), faces +Z, feet at y=0, ~1.72 m body (crown 1.74 m after head-pitch fix). All clips in place: drive position in code and set walk timeScale = speed / walkSpeedMps. Crossfade 0.3-0.5 s between clips.",
+    "skeleton": {
+      "joints": 24,
+      "hips": "Hips",
+      "boneNames": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ]
+    },
+    "animations": [
+      {
+        "name": "walk_basic",
+        "duration": 1.067,
+        "loop": true,
+        "source": "Armature|walking_man|baselayer",
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "walkSpeedMps": 1.446,
+        "notes": "Rig basic walk (free with rigging): brisk, in place, 1.07 s cycle, foot-plant speed ~1.45 m/s."
+      },
+      {
+        "name": "idle",
+        "duration": 9.967,
+        "loop": true,
+        "source": "Idle_3",
+        "meshyActionId": 243,
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "notes": "Calm standing idle (Meshy Idle_3). Arms rest slightly away from the body (A-pose bind bias)."
+      },
+      {
+        "name": "walk",
+        "duration": 4.133,
+        "loop": true,
+        "source": "Casual_Walk_inplace",
+        "meshyActionId": 613,
+        "rootMotionMeters": 0.002,
+        "rootMotionStripped": false,
+        "walkSpeedMps": 0.711,
+        "notes": "Casual walk, in place. Foot-plant speed ~0.71 m/s: set timeScale = moveSpeed / 0.71 to avoid foot sliding."
+      },
+      {
+        "name": "walk_thoughtful",
+        "duration": 4.7,
+        "loop": true,
+        "source": "Thoughtful_Walk",
+        "meshyActionId": 121,
+        "rootMotionMeters": 0.001,
+        "rootMotionStripped": false,
+        "walkSpeedMps": 0.593,
+        "notes": "Slow thoughtful walk, in place (Meshy already removed root motion). ~0.59 m/s; recommended default when strolling with the player."
+      },
+      {
+        "name": "talk_open",
+        "duration": 3.967,
+        "loop": true,
+        "source": "Talk_with_Hands_Open",
+        "meshyActionId": 313,
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "notes": "Loopable talking gesture, both hands open."
+      },
+      {
+        "name": "talk_right",
+        "duration": 3.733,
+        "loop": true,
+        "source": "Talk_with_Right_Hand_Open",
+        "meshyActionId": 314,
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "notes": "Loopable talking gesture, right hand open."
+      },
+      {
+        "name": "talk_chat",
+        "duration": 5.167,
+        "loop": true,
+        "source": "Stand_and_Chat",
+        "meshyActionId": 56,
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "notes": "Relaxed stand-and-chat, loopable; good default while narrating."
+      },
+      {
+        "name": "shrug",
+        "duration": 1.967,
+        "loop": false,
+        "source": "Shrug",
+        "meshyActionId": 317,
+        "rootMotionMeters": 0.001,
+        "rootMotionStripped": false,
+        "notes": "One-shot shrug; crossfade back to idle/talk."
+      },
+      {
+        "name": "look_around",
+        "duration": 7.833,
+        "loop": false,
+        "source": "Short_Breathe_and_Look_Around",
+        "meshyActionId": 338,
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "notes": "One-shot breathe and look around; usable as an idle variation."
+      },
+      {
+        "name": "listen",
+        "duration": 9.333,
+        "loop": true,
+        "source": "Listening_Gesture",
+        "meshyActionId": 47,
+        "rootMotionMeters": 0,
+        "rootMotionStripped": false,
+        "notes": "Subtle listening gesture with nods; used for agree/nod (Meshy Agree_Gesture 25 is an emphatic arms-up gesture and was not used)."
+      }
+    ],
+    "source": "meshy",
+    "asset": "seneca",
+    "taskIds": {
+      "preview": "01a15438-ae5b-71e0-b34f-9327b4c01a20",
+      "refine": "01a1543c-05cc-76c5-aa87-a63add1661a9",
+      "rig": "01a1543f-71e9-769a-842f-833841cd1e9e",
+      "animate": [
+        "01a15440-fd38-77c9-ad6c-18bc77aeccd1"
+      ]
+    },
+    "textures": [
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    ],
+    "bytes": 2636552,
+    "license": "Meshy-generated (account owner)"
+  },
+  "statue-muse": {
+    "file": "assets/models/statue-muse.glb",
+    "size": [
+      0.445,
+      1.75,
+      0.383
+    ],
+    "triangles": 14126,
+    "forward": "+Z",
+    "forwardNote": "Faces +Z.",
+    "notes": "Generic draped female figure (muse), weathered white marble, faces +Z. Integral thin plinth 0.29 x 0.36 m, top (feet) at y=0.075 m; no pedestal (use the game pedestal).",
+    "pivot": "bottom-center",
+    "plinthTop": 0.075,
+    "animations": [],
+    "source": "meshy",
+    "asset": "statue-muse",
+    "taskIds": {
+      "preview": "01a154b0-3af3-75b4-8859-e81268ca6619",
+      "refine": "01a154b6-de9c-7666-b05e-d8e4cb381df0"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 690972,
+    "license": "Meshy-generated (account owner)"
+  },
+  "statue-youth": {
+    "file": "assets/models/statue-youth.glb",
+    "size": [
+      0.474,
+      1.75,
+      0.377
+    ],
+    "triangles": 14313,
+    "forward": "+Z",
+    "forwardNote": "Faces +Z.",
+    "notes": "Generic youth, faces +Z: bare torso, short hip wrap, small chlamys bunched on the left shoulder (cloak is minimal). Ochre paint-like drapery desaturated to marble at optimize time. Integral stepped plinth 0.41 x 0.38 m, top (feet) at y=0.155 m; no pedestal.",
+    "pivot": "bottom-center",
+    "plinthTop": 0.155,
+    "animations": [],
+    "source": "meshy",
+    "asset": "statue-youth",
+    "taskIds": {
+      "preview": "01a154b0-4a6b-76f1-a385-99c328ff385e",
+      "refine": "01a154b6-f18a-7191-a296-efba4c5c74e2"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 559376,
+    "license": "Meshy-generated (account owner)"
+  },
+  "stone-bench": {
+    "file": "assets/models/stone-bench.glb",
+    "size": [
+      1.9,
+      0.61,
+      0.561
+    ],
+    "triangles": 11994,
+    "forward": "+Z",
+    "forwardNote": "Seat front faces +Z, long axis along X.",
+    "notes": "Seat top at ~0.61 m. Symmetric front/back.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "stone-bench",
+    "taskIds": {
+      "preview": "01a15434-ba49-7415-8e74-02e159ccba7c",
+      "refine": "01a15436-1fb8-75bb-aa92-5c58e6a58f05"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 317096,
+    "license": "Meshy-generated (account owner)"
+  },
+  "umbrella-pine": {
+    "file": "assets/models/umbrella-pine.glb",
+    "size": [
+      7.286,
+      8.001,
+      7.866
+    ],
+    "triangles": 9857,
+    "forward": "+Z",
+    "forwardNote": "Roughly radially symmetric.",
+    "notes": "Bare straight trunk with a flat parasol crown 7.3-7.9 m wide at 6-8 m height (crown widened x1.8 in post); opaque faceted foliage.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "umbrella-pine",
+    "taskIds": {
+      "preview": "01a15488-85a6-7173-84c6-456b46e6b3cc",
+      "refine": "01a15494-bdf0-75f6-b47f-a47f15190d4c"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 513112,
+    "license": "Meshy-generated (account owner)"
+  },
+  "wicker-chair": {
+    "file": "assets/models/wicker-chair.glb",
+    "size": [
+      0.686,
+      0.9,
+      0.652
+    ],
+    "triangles": 4987,
+    "forward": "+Z",
+    "forwardNote": "Seat opening / cushion toward +Z.",
+    "notes": "Tub-shaped Roman wicker armchair (v2) with drum base and red cushion, front +Z; cushion top (seat) y~0.44 m; openwork back of thin strands (double-sided material); footprint narrowed to 0.69 x 0.65 m at optimize time (post_scale x/z 0.75).",
+    "pivot": "bottom-center",
+    "seatHeight": 0.44,
+    "animations": [],
+    "source": "meshy",
+    "asset": "wicker-chair",
+    "taskIds": {
+      "preview": "01a154c6-0142-72ec-8607-8506b0c1c095",
+      "refine": "01a154cf-314d-74fa-8cd8-8f3a811c87d7"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 319364,
+    "license": "Meshy-generated (account owner)"
+  },
+  "wooden-bench": {
+    "file": "assets/models/wooden-bench.glb",
+    "size": [
+      1.6,
+      0.465,
+      0.399
+    ],
+    "triangles": 3493,
+    "forward": "+Z",
+    "forwardNote": "Long along X; symmetric front/back.",
+    "notes": "Rustic plank bench on two trestle leg frames, long along X, seat top y~0.465 m; depth scaled to 0.40 m at optimize time (post_scale z 0.5).",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "wooden-bench",
+    "taskIds": {
+      "preview": "01a154b7-ef5d-71f9-b67f-672dd064b280",
+      "refine": "01a154c1-4f73-7096-bb90-ff5ee23039ec"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 385848,
+    "license": "Meshy-generated (account owner)"
+  },
+  "writing-table": {
+    "file": "assets/models/writing-table.glb",
+    "size": [
+      1.2,
+      0.82,
+      0.921
+    ],
+    "triangles": 13445,
+    "forward": "+Z",
+    "forwardNote": "Long side faces +Z (writer stands/sits on the +Z side).",
+    "notes": "Tabletop ~0.72 m; items (scroll, open diptych, inkwell, stylus) on top; diptych overhangs +Z edge slightly.",
+    "pivot": "bottom-center",
+    "animations": [],
+    "source": "meshy",
+    "asset": "writing-table",
+    "taskIds": {
+      "preview": "01a1543c-1312-72f1-8b79-33f8a6500f3e",
+      "refine": "01a1543d-e1c0-7673-b66e-be3e5c862a13"
+    },
+    "textures": [
+      {
+        "slots": [
+          "baseColorTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "metallicRoughnessTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "slots": [
+          "normalTexture"
+        ],
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "bytes": 655148,
+    "license": "Meshy-generated (account owner)"
+  }
+}

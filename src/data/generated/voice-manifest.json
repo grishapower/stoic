@@ -1,0 +1,998 @@
+{
+  "version": 1,
+  "provider": "elevenlabs",
+  "placeholder": false,
+  "generatedAt": "2026-10-19T19:07:22.967Z",
+  "clips": {
+    "L01": {
+      "id": "L01",
+      "kind": "letter",
+      "block": "b1",
+      "file": "assets/audio/voice/L01.mp3",
+      "duration": 2.817,
+      "text": "Сенека шлёт привет своему Луцилию.",
+      "ttsText": "[warmly] Сене́ка шлёт привет своему Луци́лию.",
+      "emotion": "тёплая улыбка, нежность к другу",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Сенека шлёт привет своему Луцилию.",
+          "start": 0.167,
+          "end": 2.567
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "eb9153f5b937da150274a970743cb045a0f331bb",
+      "generatedAt": "2026-10-19T18:50:31.892Z"
+    },
+    "L02": {
+      "id": "L02",
+      "kind": "letter",
+      "block": "b1",
+      "file": "assets/audio/voice/L02.mp3",
+      "duration": 14.232,
+      "text": "Поступай так, мой Луцилий: верни себя самому себе. Время, что до сих пор то отнимали у тебя, то похищали, то само ускользало, — собери и сбереги.",
+      "ttsText": "[gently] Поступай так, мой Луци́лий: верни себя самому себе. [short pause] Время, что до сих пор то отнимали у тебя, то похищали, то само ускользало, — собери и сбереги.",
+      "emotion": "доброжелательное наставление",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Поступай так, мой Луцилий: верни себя самому себе.",
+          "start": 0.1,
+          "end": 4.684
+        },
+        {
+          "index": 1,
+          "text": "Время, что до сих пор то отнимали у тебя, то похищали, то само ускользало, —",
+          "start": 5.724,
+          "end": 11.484
+        },
+        {
+          "index": 2,
+          "text": "собери и сбереги.",
+          "start": 12.204,
+          "end": 13.884
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "6e622f293f7178d9b0231938018ef10daec1eafb",
+      "generatedAt": "2026-10-19T18:50:38.374Z"
+    },
+    "L03": {
+      "id": "L03",
+      "kind": "letter",
+      "block": "b1",
+      "file": "assets/audio/voice/L03.mp3",
+      "duration": 12.374,
+      "text": "Будь уверен: всё обстоит именно так, как я пишу. Одни часы у нас вырывают силой, другие уводят исподволь, третьи утекают сами.",
+      "ttsText": "[thoughtful] Будь уверен: всё обстоит именно так, как я пишу. [short pause] Одни часы у нас вырывают силой, другие уводят и́сподволь, третьи утекают сами.",
+      "emotion": "размышление",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Будь уверен: всё обстоит именно так, как я пишу.",
+          "start": 0.204,
+          "end": 4.204
+        },
+        {
+          "index": 1,
+          "text": "Одни часы у нас вырывают силой, другие уводят исподволь, третьи утекают сами.",
+          "start": 5.301,
+          "end": 12.124
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "35339b88599169a13ca14409905b2681edf9a1fe",
+      "generatedAt": "2026-10-19T18:58:42.249Z"
+    },
+    "L04": {
+      "id": "L04",
+      "kind": "letter",
+      "block": "b1",
+      "file": "assets/audio/voice/L04.mp3",
+      "duration": 5.199,
+      "text": "Но самая постыдная утрата — та, что происходит от небрежности.",
+      "ttsText": "[softly] Но самая посты́дная утрата — та, что происходит от небре́жности.",
+      "emotion": "тихое сожаление",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Но самая постыдная утрата — та, что происходит от небрежности.",
+          "start": 0.1,
+          "end": 4.809
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "7b5cf61f2ca06f3bea9ea6f61dde5762a47e80e3",
+      "generatedAt": "2026-10-19T18:50:48.295Z"
+    },
+    "L05": {
+      "id": "L05",
+      "kind": "letter",
+      "block": "b1",
+      "file": "assets/audio/voice/L05.mp3",
+      "duration": 15.002,
+      "text": "И если захочешь присмотреться, увидишь: немалая часть жизни ускользает от тех, кто делает дурное, большая — от тех, кто не делает ничего, а вся жизнь — от тех, кто делает не то.",
+      "ttsText": "[thoughtful] И если захочешь присмотреться, увидишь: немалая часть жизни ускользает от тех, кто делает дурное, бо́льшая — от тех, кто не делает ничего, а вся жизнь — от тех, кто делает не то.",
+      "emotion": "вдумчивость с лёгкой иронией",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "И если захочешь присмотреться, увидишь:",
+          "start": 0.122,
+          "end": 2.842
+        },
+        {
+          "index": 1,
+          "text": "немалая часть жизни ускользает от тех, кто делает дурное,",
+          "start": 3.402,
+          "end": 7.322
+        },
+        {
+          "index": 2,
+          "text": "большая — от тех, кто не делает ничего,",
+          "start": 7.962,
+          "end": 10.842
+        },
+        {
+          "index": 3,
+          "text": "а вся жизнь — от тех, кто делает не то.",
+          "start": 11.442,
+          "end": 14.682
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "6a77976708a4caac383b1e78b279c71df417f08c",
+      "generatedAt": "2026-10-19T18:50:56.960Z"
+    },
+    "L06": {
+      "id": "L06",
+      "kind": "letter",
+      "block": "b2",
+      "file": "assets/audio/voice/L06.mp3",
+      "duration": 9.498,
+      "text": "Покажешь ли ты мне человека, который хоть сколько-нибудь ценил бы время, дорожил бы каждым днём, понимал бы, что умирает ежедневно?",
+      "ttsText": "[curious] Покажешь ли ты мне человека, который хоть сколько-нибудь ценил бы время, дорожил бы каждым днём, понимал бы, что умирает ежедневно?",
+      "emotion": "риторический вопрос, тихая печаль",
+      "routeAnchor": "cypress-alley",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Покажешь ли ты мне человека,",
+          "start": 0.111,
+          "end": 1.631
+        },
+        {
+          "index": 1,
+          "text": "который хоть сколько-нибудь ценил бы время, дорожил бы каждым днём,",
+          "start": 1.791,
+          "end": 6.351
+        },
+        {
+          "index": 2,
+          "text": "понимал бы, что умирает ежедневно?",
+          "start": 6.831,
+          "end": 9.151
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "b89e8eadcd24404df631addb34feed1a450cd3b4",
+      "generatedAt": "2026-10-19T18:51:02.288Z"
+    },
+    "L07": {
+      "id": "L07",
+      "kind": "letter",
+      "block": "b2",
+      "file": "assets/audio/voice/L07.mp3",
+      "duration": 11.225,
+      "text": "Ведь мы ошибаемся, высматривая смерть впереди: немалая её часть уже миновала; всё, что из наших лет осталось позади, — в руках у смерти.",
+      "ttsText": "[serious] Ведь мы ошибаемся, высматривая смерть впереди: [short pause] немалая её часть уже миновала; всё, что из наших лет осталось позади, — в руках у смерти.",
+      "emotion": "осознание конечности времени",
+      "routeAnchor": "cypress-alley",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Ведь мы ошибаемся, высматривая смерть впереди:",
+          "start": 0.119,
+          "end": 3.319
+        },
+        {
+          "index": 1,
+          "text": "немалая её часть уже миновала;",
+          "start": 4.245,
+          "end": 6.199
+        },
+        {
+          "index": 2,
+          "text": "всё, что из наших лет осталось позади, — в руках у смерти.",
+          "start": 6.839,
+          "end": 10.839
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "52c0de78ebcfe110969bd0dbb99fe62d083da4d0",
+      "generatedAt": "2026-10-19T18:51:06.659Z"
+    },
+    "L08": {
+      "id": "L08",
+      "kind": "letter",
+      "block": "b2",
+      "file": "assets/audio/voice/L08.mp3",
+      "duration": 13.48,
+      "text": "Так делай же, мой Луцилий, то, что, по твоим словам, уже делаешь: держи в руках каждый час. Так и выйдет: от завтрашнего дня будешь зависеть меньше, если наложишь руку на сегодняшний.",
+      "ttsText": "[encouraging] Так делай же, мой Луци́лий, то, что, по твоим словам, уже делаешь: держи в руках каждый час. [short pause] Так и выйдет: от завтрашнего дня будешь зависеть меньше, если наложишь руку на сегодняшний.",
+      "emotion": "ободрение, сдержанная радость",
+      "routeAnchor": "cypress-alley",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Так делай же, мой Луцилий, то, что, по твоим словам, уже делаешь:",
+          "start": 0.1,
+          "end": 4.431
+        },
+        {
+          "index": 1,
+          "text": "держи в руках каждый час.",
+          "start": 4.991,
+          "end": 6.671
+        },
+        {
+          "index": 2,
+          "text": "Так и выйдет: от завтрашнего дня будешь зависеть меньше,",
+          "start": 7.3,
+          "end": 10.991
+        },
+        {
+          "index": 3,
+          "text": "если наложишь руку на сегодняшний.",
+          "start": 11.231,
+          "end": 13.151
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "915be67b34263d75cb570d697f0ee02249baa70a",
+      "generatedAt": "2026-10-19T18:51:12.829Z"
+    },
+    "L09": {
+      "id": "L09",
+      "kind": "letter",
+      "block": "b2",
+      "file": "assets/audio/voice/L09.mp3",
+      "duration": 3.701,
+      "text": "Пока жизнь откладывают — она пробегает мимо.",
+      "ttsText": "[quietly] Пока жизнь откладывают — она пробегает мимо.",
+      "emotion": "простая истина, тихо",
+      "routeAnchor": "cypress-alley",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Пока жизнь откладывают — она пробегает мимо.",
+          "start": 0.1,
+          "end": 3.451
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "848610399e950980757c5c0388f7ecf4edac3e51",
+      "generatedAt": "2026-10-19T18:51:16.360Z"
+    },
+    "L10": {
+      "id": "L10",
+      "kind": "letter",
+      "block": "b3",
+      "file": "assets/audio/voice/L10.mp3",
+      "duration": 5.174,
+      "text": "Всё, Луцилий, не наше; наше — только время.",
+      "ttsText": "[sincere] Всё, Луци́лий, не наше; наше — только время.",
+      "emotion": "искренность",
+      "routeAnchor": "olive-grove",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Всё, Луцилий, не наше; наше — только время.",
+          "start": 0.124,
+          "end": 4.844
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "5fc81bafdee08e3237ff4b41905a2ef202c17f14",
+      "generatedAt": "2026-10-19T18:51:18.837Z"
+    },
+    "L11": {
+      "id": "L11",
+      "kind": "letter",
+      "block": "b3",
+      "file": "assets/audio/voice/L11.mp3",
+      "duration": 10.327,
+      "text": "Лишь этим одним, беглым и неуловимым, природа ввела нас во владение — а выставить нас из него может всякий, кто захочет.",
+      "ttsText": "[thoughtful] Лишь этим одним, беглым и неуловимым, природа ввела нас во владение — а выставить нас из него может всякий, кто захочет.",
+      "emotion": "размышление",
+      "routeAnchor": "olive-grove",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Лишь этим одним, беглым и неуловимым, природа ввела нас во владение —",
+          "start": 0.144,
+          "end": 5.824
+        },
+        {
+          "index": 1,
+          "text": "а выставить нас из него может всякий, кто захочет.",
+          "start": 6.464,
+          "end": 9.984
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "621935857113ee4b009be77c6c6ea66ee0fcd97f",
+      "generatedAt": "2026-10-19T18:51:22.934Z"
+    },
+    "L12": {
+      "id": "L12",
+      "kind": "letter",
+      "block": "b3",
+      "file": "assets/audio/voice/L12.mp3",
+      "duration": 21.898,
+      "text": "И так велика глупость смертных: самые мелкие и дешёвые вещи, которые уж точно можно восполнить, они, выпросив, позволяют записать себе в долг, — но никто, получив чужое время, не думает, что хоть что-то за него должен. А ведь это единственное, чего не может вернуть даже благодарный.",
+      "ttsText": "[wry] И так велика́ глупость смертных: самые мелкие и дешёвые вещи, которые уж точно можно восполнить, они, выпросив, позволяют записать себе в долг, — но никто, получив чужое время, не думает, что хоть что́-то за него должен. [short pause] А ведь это единственное, чего не может вернуть даже благодарный.",
+      "emotion": "мягкая ирония, переходящая в искренность",
+      "routeAnchor": "olive-grove",
+      "cues": [
+        {
+          "index": 0,
+          "text": "И так велика глупость смертных:",
+          "start": 0.141,
+          "end": 2.541
+        },
+        {
+          "index": 1,
+          "text": "самые мелкие и дешёвые вещи, которые уж точно можно восполнить,",
+          "start": 3.181,
+          "end": 7.901
+        },
+        {
+          "index": 2,
+          "text": "они, выпросив, позволяют записать себе в долг, —",
+          "start": 8.061,
+          "end": 11.821
+        },
+        {
+          "index": 3,
+          "text": "но никто, получив чужое время, не думает, что хоть что-то за него должен.",
+          "start": 11.901,
+          "end": 17.421
+        },
+        {
+          "index": 4,
+          "text": "А ведь это единственное, чего не может вернуть даже благодарный.",
+          "start": 17.501,
+          "end": 21.581
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "7c259c1e69dd0603d3937a7886ae853872b3f385",
+      "generatedAt": "2026-10-19T18:51:30.834Z"
+    },
+    "L13": {
+      "id": "L13",
+      "kind": "letter",
+      "block": "b4",
+      "file": "assets/audio/voice/L13.mp3",
+      "duration": 6.268,
+      "text": "Ты, пожалуй, спросишь, как поступаю я сам — я, раздающий тебе такие наставления.",
+      "ttsText": "[amused] Ты, пожалуй, спросишь, как поступаю я сам — я, раздающий тебе такие наставления.",
+      "emotion": "самоирония, улыбка",
+      "routeAnchor": "pergola",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Ты, пожалуй, спросишь, как поступаю я сам —",
+          "start": 0.165,
+          "end": 2.818
+        },
+        {
+          "index": 1,
+          "text": "я, раздающий тебе такие наставления.",
+          "start": 3.378,
+          "end": 5.938
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "82a7fedf6d3b8e3c95bcabe76de64d3d26adf677",
+      "generatedAt": "2026-10-19T18:51:33.853Z"
+    },
+    "L14": {
+      "id": "L14",
+      "kind": "letter",
+      "block": "b4",
+      "file": "assets/audio/voice/L14.mp3",
+      "duration": 9.93,
+      "text": "Признаюсь откровенно: как у того, кто живёт на широкую ногу, но знает счёт деньгам, — каждый мой расход у меня на счету.",
+      "ttsText": "[sincere] Призна́юсь откровенно: как у того, кто живёт на широкую ногу, но знает счёт деньгам, — каждый мой расход у меня на счету́.",
+      "emotion": "искренность",
+      "routeAnchor": "pergola",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Признаюсь откровенно:",
+          "start": 0.1,
+          "end": 1.36
+        },
+        {
+          "index": 1,
+          "text": "как у того, кто живёт на широкую ногу, но знает счёт деньгам, —",
+          "start": 1.96,
+          "end": 6.56
+        },
+        {
+          "index": 2,
+          "text": "каждый мой расход у меня на счету.",
+          "start": 7.24,
+          "end": 9.52
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "a4f182bdcdce3ce124cef743ed922e1e7106f038",
+      "generatedAt": "2026-10-19T18:51:38.064Z"
+    },
+    "L15": {
+      "id": "L15",
+      "kind": "letter",
+      "block": "b4",
+      "file": "assets/audio/voice/L15.mp3",
+      "duration": 11.114,
+      "text": "Не скажу, что ничего не теряю. Но что теряю, почему и каким образом — скажу; я могу дать отчёт в причинах своей бедности.",
+      "ttsText": "[softly] Не скажу, что ничего не теряю. [short pause] Но что теряю, почему и каким о́бразом — скажу; я могу дать отчёт в причинах своей бедности.",
+      "emotion": "честное признание",
+      "routeAnchor": "pergola",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Не скажу, что ничего не теряю.",
+          "start": 0.165,
+          "end": 2.245
+        },
+        {
+          "index": 1,
+          "text": "Но что теряю, почему и каким образом — скажу;",
+          "start": 2.965,
+          "end": 7.445
+        },
+        {
+          "index": 2,
+          "text": "я могу дать отчёт в причинах своей бедности.",
+          "start": 8.085,
+          "end": 10.725
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "b4fcfcdf3ac93c9877158c1f7c3f04a738023d62",
+      "generatedAt": "2026-10-19T18:51:44.517Z"
+    },
+    "L16": {
+      "id": "L16",
+      "kind": "letter",
+      "block": "b4",
+      "file": "assets/audio/voice/L16.mp3",
+      "duration": 10.212,
+      "text": "Но со мной выходит то же, что почти со всеми, кто обеднел не по своей вине: все прощают, никто не выручает.",
+      "ttsText": "[sighs] Но со мной выходит то же, что почти со всеми, кто обеднел не по своей вине: [short pause] все прощают, никто не выручает.",
+      "emotion": "лёгкий вздох, ироничная улыбка",
+      "routeAnchor": "pergola",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Но со мной выходит то же, что почти со всеми, кто обеднел не по своей вине:",
+          "start": 0.1,
+          "end": 6.083
+        },
+        {
+          "index": 1,
+          "text": "все прощают, никто не выручает.",
+          "start": 6.963,
+          "end": 9.843
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "adfb8ab3832638cd1be36bcfbb17096281ca8227",
+      "generatedAt": "2026-10-19T19:07:20.955Z"
+    },
+    "L17": {
+      "id": "L17",
+      "kind": "letter",
+      "block": "b5",
+      "file": "assets/audio/voice/L17.mp3",
+      "duration": 8.587,
+      "text": "Что же из этого следует? Я не считаю бедным того, кому довольно остатка, как бы мал он ни был.",
+      "ttsText": "[thoughtful] Что же из этого следует? [short pause] Я не считаю бедным того, кому довольно остатка, как бы мал он ни был.",
+      "emotion": "размышление, спокойствие",
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Что же из этого следует?",
+          "start": 0.257,
+          "end": 1.777
+        },
+        {
+          "index": 1,
+          "text": "Я не считаю бедным того, кому довольно остатка, как бы мал он ни был.",
+          "start": 2.977,
+          "end": 7.617
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "b15d8e55c1a585137a94f2a73232bddd20dc9bac",
+      "generatedAt": "2026-10-19T18:51:52.813Z"
+    },
+    "L18": {
+      "id": "L18",
+      "kind": "letter",
+      "block": "b5",
+      "file": "assets/audio/voice/L18.mp3",
+      "duration": 6.299,
+      "text": "Но я бы всё же хотел, чтобы ты берёг своё. И начнёшь ты в добрый час.",
+      "ttsText": "[warmly] Но я бы всё же хотел, чтобы ты берёг своё. И начнёшь ты в добрый час.",
+      "emotion": "доброжелательное наставление",
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Но я бы всё же хотел, чтобы ты берёг своё.",
+          "start": 0.199,
+          "end": 3.479
+        },
+        {
+          "index": 1,
+          "text": "И начнёшь ты в добрый час.",
+          "start": 4.039,
+          "end": 5.959
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "37949254d6b8331417e8bd12e7efdc3f9f63404e",
+      "generatedAt": "2026-10-19T18:51:55.798Z"
+    },
+    "L19": {
+      "id": "L19",
+      "kind": "letter",
+      "block": "b5",
+      "file": "assets/audio/voice/L19.mp3",
+      "duration": 10.833,
+      "text": "Ведь, как рассудили наши предки, «поздно беречь, когда показалось дно»: на дне остаётся не только самое малое, но и самое худшее.",
+      "ttsText": "[serious] Ведь, как рассудили наши предки, «поздно беречь, когда показалось дно»: на дне остаётся не только самое малое, но и самое ху́дшее.",
+      "emotion": "осознание конечности, мудрая простота",
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Ведь, как рассудили наши предки, «поздно беречь, когда показалось дно»:",
+          "start": 0.17,
+          "end": 5.45
+        },
+        {
+          "index": 1,
+          "text": "на дне остаётся не только самое малое, но и самое худшее.",
+          "start": 6.21,
+          "end": 10.49
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "af65e278c6da6b21ff47f45acd0becd8daa6fb7f",
+      "generatedAt": "2026-10-19T18:52:00.565Z"
+    },
+    "L20": {
+      "id": "L20",
+      "kind": "letter",
+      "block": "b5",
+      "file": "assets/audio/voice/L20.mp3",
+      "duration": 1.539,
+      "text": "Будь здоров.",
+      "ttsText": "[softly] Будь здоров.",
+      "emotion": "тепло, тихо, прощание",
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Будь здоров.",
+          "start": 0.235,
+          "end": 1.035
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "c6e3f9105264bd30f9e169c3c27732cfa2915c9e",
+      "generatedAt": "2026-10-19T18:52:01.908Z"
+    },
+    "A-greet-1": {
+      "id": "A-greet-1",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-greet-1.mp3",
+      "duration": 9.132,
+      "text": "А, это ты. Мне сказали, что кто-то ждёт у фонтана. Пришёл спросить, как жить, — и, как все, торопишься.",
+      "ttsText": "[amused] А, это ты. [short pause] Мне сказали, что кто-то ждёт у фонтана. Пришёл спросить, как жить, — и, как все, торопишься.",
+      "emotion": "приветствие с мягкой иронией",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "А, это ты.",
+          "start": 0.253,
+          "end": 1.453
+        },
+        {
+          "index": 1,
+          "text": "Мне сказали, что кто-то ждёт у фонтана.",
+          "start": 2.253,
+          "end": 4.493
+        },
+        {
+          "index": 2,
+          "text": "Пришёл спросить, как жить, — и, как все, торопишься.",
+          "start": 4.973,
+          "end": 8.813
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "10fbb0805f58535eaa5f6cb58f8ebc682030598c",
+      "generatedAt": "2026-10-19T19:04:00.337Z"
+    },
+    "A-greet-2": {
+      "id": "A-greet-2",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-greet-2.mp3",
+      "duration": 9.519,
+      "text": "Не торопись. Я как раз дописал письмо Луцилию — в нём всё, что я мог бы тебе ответить. Пойдём к морю, я прочту его вслух.",
+      "ttsText": "[warmly] Не торопись. [short pause] Я как раз дописал письмо Луци́лию — в нём всё, что я мог бы тебе ответить. [short pause] Пойдём к морю, я прочту его вслух.",
+      "emotion": "приглашение, тепло",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Не торопись.",
+          "start": 0.158,
+          "end": 0.958
+        },
+        {
+          "index": 1,
+          "text": "Я как раз дописал письмо Луцилию — в нём всё, что я мог бы тебе ответить.",
+          "start": 1.678,
+          "end": 6.158
+        },
+        {
+          "index": 2,
+          "text": "Пойдём к морю, я прочту его вслух.",
+          "start": 6.867,
+          "end": 9.198
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "d52c7297c06b59d827871838c39638a4f1ed4b35",
+      "generatedAt": "2026-10-19T19:04:04.440Z"
+    },
+    "A-letter": {
+      "id": "A-letter",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-letter.mp3",
+      "duration": 3.388,
+      "text": "Слушай так, будто оно написано и тебе.",
+      "ttsText": "[softly] Слушай так, будто оно написано и тебе.",
+      "emotion": "тихо, доверительно",
+      "routeAnchor": "garden",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Слушай так, будто оно написано и тебе.",
+          "start": 0.229,
+          "end": 2.949
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "dd7985ad6d62cc605f9a68976ef653a6459c12f9",
+      "generatedAt": "2026-10-19T19:04:06.133Z"
+    },
+    "A-wait-1": {
+      "id": "A-wait-1",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-wait-1.mp3",
+      "duration": 2.664,
+      "text": "Не торопись. Я подожду.",
+      "ttsText": "[gently] Не торопись. Я подожду.",
+      "emotion": "терпеливо, доброжелательно",
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Не торопись. Я подожду.",
+          "start": 0.172,
+          "end": 2.252
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "a726705c8fc1d087d8eebc5c68cfbea55fc9be41",
+      "generatedAt": "2026-10-19T18:52:03.452Z"
+    },
+    "A-wait-2": {
+      "id": "A-wait-2",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-wait-2.mp3",
+      "duration": 4.949,
+      "text": "Смотри сколько хочешь. Ради этого и стоит выходить из дома.",
+      "ttsText": "[amused] Смотри сколько хочешь. Ради этого и сто́ит выходить из дома.",
+      "emotion": "доброжелательная улыбка",
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Смотри сколько хочешь. Ради этого и стоит выходить из дома.",
+          "start": 0.254,
+          "end": 4.574
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "aea19c99eb4c0d67189f06faa1c03f58dd2d6fdf",
+      "generatedAt": "2026-10-19T18:52:05.541Z"
+    },
+    "A-resume-1": {
+      "id": "A-resume-1",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-resume-1.mp3",
+      "duration": 1.615,
+      "text": "Так вот…",
+      "ttsText": "[thoughtful] Так вот…",
+      "emotion": "возвращение к мысли",
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Так вот…",
+          "start": 0.139,
+          "end": 1.019
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "09846d1f6ed868714ee7da387be40e47d100412e",
+      "generatedAt": "2026-10-19T18:52:07.719Z"
+    },
+    "A-resume-2": {
+      "id": "A-resume-2",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-resume-2.mp3",
+      "duration": 2.33,
+      "text": "На чём я остановился…",
+      "ttsText": "[thoughtful] На чём я остановился…",
+      "emotion": "возвращение к мысли",
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "index": 0,
+          "text": "На чём я остановился…",
+          "start": 0.246,
+          "end": 1.766
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "571071e8a30924d152e589ec32fe51f286faa47c",
+      "generatedAt": "2026-10-19T18:52:09.245Z"
+    },
+    "A-sea": {
+      "id": "A-sea",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-sea.mp3",
+      "duration": 6.227,
+      "text": "Посмотри на море. Каждый вечер одно и то же — и каждый вечер иначе.",
+      "ttsText": "[softly] Посмотри на море. [pause] Каждый вечер одно и то же — и каждый вечер иначе.",
+      "emotion": "сдержанная радость, созерцание",
+      "routeAnchor": "viewpoint",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Посмотри на море.",
+          "start": 0.109,
+          "end": 1.069
+        },
+        {
+          "index": 1,
+          "text": "Каждый вечер одно и то же — и каждый вечер иначе.",
+          "start": 1.789,
+          "end": 5.869
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "615b7b14361f612f8bee8fd593fb3f546ec7c0db",
+      "generatedAt": "2026-10-19T18:58:52.843Z"
+    },
+    "A-table": {
+      "id": "A-table",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-table.mp3",
+      "duration": 5.054,
+      "text": "Здесь я обычно пишу. По вечерам мысли сговорчивее.",
+      "ttsText": "[amused] Здесь я обычно пишу. [short pause] По вечерам мысли сгово́рчивее.",
+      "emotion": "сухой юмор",
+      "routeAnchor": "pergola",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Здесь я обычно пишу.",
+          "start": 0.1,
+          "end": 1.795
+        },
+        {
+          "index": 1,
+          "text": "По вечерам мысли сговорчивее.",
+          "start": 2.595,
+          "end": 4.675
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "c73df4f70411ee9678661748e24deea492af8179",
+      "generatedAt": "2026-10-19T19:07:21.664Z"
+    },
+    "A-terrace": {
+      "id": "A-terrace",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-terrace.mp3",
+      "duration": 3.448,
+      "text": "Вот мы и пришли. Дочитаю здесь.",
+      "ttsText": "[calm] Вот мы и пришли. [short pause] Дочитаю здесь.",
+      "emotion": "спокойствие",
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Вот мы и пришли.",
+          "start": 0.195,
+          "end": 1.235
+        },
+        {
+          "index": 1,
+          "text": "Дочитаю здесь.",
+          "start": 2.235,
+          "end": 3.075
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "e5bfb4354501d709f3eb8818ecee9008eda33dcc",
+      "generatedAt": "2026-10-19T18:52:17.826Z"
+    },
+    "A-fruit": {
+      "id": "A-fruit",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-fruit.mp3",
+      "duration": 6.341,
+      "text": "Спелый плод. Не откладывай его на завтра — завтра он будет уже другим.",
+      "ttsText": "[amused] Спелый плод. [short pause] Не откладывай его на завтра — завтра он будет уже другим.",
+      "emotion": "мягкая ирония, улыбка",
+      "routeAnchor": "any",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Спелый плод.",
+          "start": 0.1,
+          "end": 1.431
+        },
+        {
+          "index": 1,
+          "text": "Не откладывай его на завтра —",
+          "start": 2.071,
+          "end": 3.591
+        },
+        {
+          "index": 2,
+          "text": "завтра он будет уже другим.",
+          "start": 4.151,
+          "end": 5.991
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "465664f97cb782cbd38dc66fa01b90022f9b9168",
+      "generatedAt": "2026-10-19T19:07:22.966Z"
+    },
+    "A-farewell": {
+      "id": "A-farewell",
+      "kind": "authored",
+      "block": null,
+      "file": "assets/audio/voice/A-farewell.mp3",
+      "duration": 3.987,
+      "text": "Вечер ещё не кончился. И он — твой.",
+      "ttsText": "[warmly] Вечер ещё не кончился. [short pause] И он — твой.",
+      "emotion": "тепло, прощание",
+      "routeAnchor": "terrace",
+      "cues": [
+        {
+          "index": 0,
+          "text": "Вечер ещё не кончился.",
+          "start": 0.257,
+          "end": 1.697
+        },
+        {
+          "index": 1,
+          "text": "И он — твой.",
+          "start": 2.337,
+          "end": 3.617
+        }
+      ],
+      "provider": "elevenlabs",
+      "voice": "HAvvFKatz0uu0Fv55Riy",
+      "model": "eleven_v4",
+      "hash": "bf698396685903ee43b876f26be8115c84660c8d",
+      "generatedAt": "2026-10-19T18:52:23.161Z"
+    }
+  }
+}
